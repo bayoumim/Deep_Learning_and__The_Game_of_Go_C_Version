@@ -1,1 +1,1 @@
-# Deep_Learning_and__The_Game_of_Go_C_Version
+# Deep Learning and The Game of Go: C Version
