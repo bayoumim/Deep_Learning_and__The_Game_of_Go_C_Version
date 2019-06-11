@@ -13,14 +13,14 @@
 # **************************************************************
 #
 
-CXX      := -c++
+CXX      := -g++
 CXXFLAGS := -pedantic-errors -Wall -Wextra -Werror
 LDFLAGS  := -L/usr/lib -lstdc++ -lm
 BUILD    := ./build
 OBJ_DIR  := $(BUILD)/objects
 APP_DIR  := $(BUILD)/apps
 TARGET   := program
-INCLUDE  := -Iinclude/
+INCLUDE  := -Iinclude/ -Iinclude/dlgo/
 SRC      :=                      \
    $(wildcard src/module1/*.cpp) \
    $(wildcard src/module2/*.cpp) \
@@ -49,7 +49,7 @@ build:
 debug: CXXFLAGS += -DDEBUG -g
 debug: all
 
-release: CXXFLAGS += -O2
+release: CXXFLAGS += -O3
 release: all
 
 clean:
