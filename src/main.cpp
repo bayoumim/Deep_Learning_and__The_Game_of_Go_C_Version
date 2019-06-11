@@ -1,5 +1,5 @@
 
-#include "goboard_slow.h"
+#include "naive.h"
 
 
 int main(){
