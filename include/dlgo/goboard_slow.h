@@ -221,6 +221,15 @@ public:
         
         return next_board;
     }
+
+    GoString *get_go_string(Point & point) {
+        auto itr = _grid->find(point);
+        if (itr == _grid->end())
+            return NULL;
+        return itr->second;
+    }
+
+
 };
 
 
@@ -265,5 +274,20 @@ public:
             return false;
         return last_move->is_pass && second_last_move->is_pass;
     }
+
+    bool is_move_self_capture(Player * player, Move* move){ 
+        if (move->is_play)
+            return false;
+        Board * next_board = board->deepcopy();
+        next_board->place_stone(player, move->point);
+        GoString * new_string = next_board->get_go_string(move->point);
+        bool flag = new_string->num_liberties() == 0;
+        delete next_board;
+        assert(new_string != NULL);
+        return flag;
+    }
+
+
+
 };
 #endif
