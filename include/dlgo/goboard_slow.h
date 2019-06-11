@@ -134,6 +134,7 @@ public:
          for(auto itr = _grid->begin() ; itr != _grid->end(); itr++){
              delete itr->second;
          }
+         delete _grid;
      }    
   
     void place_stone(Player * player, Point & point){    
@@ -246,7 +247,13 @@ public:
         this->previous_state = previous;
         this->last_move = move;
     }
-
+    ~GameState(){
+        delete next_player;
+        delete board;
+     //   if(previous_state != NULL)
+      //      delete previous_state;
+        delete last_move;
+    }
     GameState * apply_move(Move* move) {
         Board * next_board;
         if(move->is_play ) {
@@ -275,7 +282,7 @@ public:
         return last_move->is_pass && second_last_move->is_pass;
     }
 
-    bool is_move_self_capture(Player * player, Move* move){ 
+    bool is_move_self_capture(Player * player, Move* move){
         if (move->is_play)
             return false;
         Board * next_board = board->deepcopy();
@@ -287,7 +294,32 @@ public:
         return flag;
     }
 
+    std::pair < Player * , Board* > * situation(){
+        return new std::pair < Player * , Board* >(next_player, board);
+    }
 
+    bool does_move_violate_ko(Player * player, Move * move){
+        if (!move->is_play)
+            return false;
+        Board * next_board = board->deepcopy();
+        next_board->place_stone(player, move->point);
+        std::pair < Player * , Board* > * next_situation = new std::pair < Player * , Board* >(player->other(), next_board);
+        GameState * past_state = previous_state;
+        std::pair < Player * , Board* > * tmp;
+
+        while (past_state != NULL) {
+            if ( *(tmp = past_state->situation()) == * next_situation ) {
+                delete next_situation;
+                delete tmp;
+                return true;
+            }
+            delete tmp;
+            past_state = past_state->previous_state;
+
+        }
+        delete next_situation;
+        return false;
+    }
 
 };
 #endif
