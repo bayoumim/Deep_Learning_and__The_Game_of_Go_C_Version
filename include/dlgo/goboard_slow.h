@@ -230,7 +230,13 @@ public:
         return itr->second;
     }
 
-
+    Color get(Point & point, bool & noneflag){
+        noneflag = false;
+        auto itr = _grid->find(point);
+        if (itr != _grid->end() )
+            noneflag =  true;
+        return itr->second->color;
+    }
 };
 
 
@@ -320,6 +326,20 @@ public:
         delete next_situation;
         return false;
     }
+
+    bool is_valid_move(Move * move){
+        if (is_over())
+            return false;
+        if (move->is_pass && move->is_resign)
+            return true;
+        bool noneflag;
+        board->get(move->point, noneflag);
+        return (
+            noneflag &&
+            ! is_move_self_capture(next_player, move) &&
+            ! does_move_violate_ko(next_player, move));
+    }
+
 
 };
 #endif
