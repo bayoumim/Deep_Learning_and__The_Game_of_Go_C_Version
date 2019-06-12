@@ -2,17 +2,16 @@
 #define _HELPERS_H
 
     bool is_point_an_eye(Board * board, Point & point, Color color) {
-        bool noneflag;
-        board->get(point, noneflag);
-        if (!noneflag)
+        Color c = board->get(point);
+        if (c != Color::none)
             return false;
 
         Point * nl =  point.neighbors();
         for (int i = 0; i < 4; i++){ 
             Point neighbor = nl[i];
             if (board->is_on_grid(neighbor)) {
-                Color neighbor_color = board->get(neighbor,noneflag);
-                assert(!noneflag);
+                Color neighbor_color = board->get(neighbor);
+                assert(neighbor_color != Color::none);
                 if (neighbor_color != color)
                     return false;
             }
@@ -30,8 +29,8 @@
         for (int i = 0; i < 4; i++) {
             Point corner = corners[i];
             if (board->is_on_grid(corner)) {
-                Color corner_color = board->get(corner,noneflag);
-                assert(!noneflag);
+                Color corner_color = board->get(corner);
+                assert(corner_color != Color::none);
                 if (corner_color == color)
                     friendly_corners += 1;
             }

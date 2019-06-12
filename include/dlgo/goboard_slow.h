@@ -144,7 +144,7 @@ public:
 
         std::set< GoString * > adjacent_same_color;
         std::set< GoString * > adjacent_opposite_color;
-        std::set<Point> *liberties;
+        std::set<Point> *liberties = new  std::set<Point>();
         int ucount =0; 
 
         Point * nl = point.neighbors();
@@ -211,7 +211,7 @@ public:
         _grid = next_grid;
     }
     Board * deepcopy(){
-        std::map< Point, GoString * > * next_grid;
+        std::map< Point, GoString * > * next_grid = new std::map< Point, GoString * > ();
         for(auto itr = _grid->begin(); itr != _grid->end(); itr++) {
             GoString * gs = itr->second->deepcopy();
             (*next_grid)[ itr->first ] = gs;
@@ -230,11 +230,10 @@ public:
         return itr->second;
     }
 
-    Color get(Point & point, bool & noneflag){
-        noneflag = false;
+    Color get(Point & point){
         auto itr = _grid->find(point);
         if (itr != _grid->end() )
-            noneflag =  true;
+            return Color::none;
         return itr->second->color;
     }
 };
@@ -332,10 +331,9 @@ public:
             return false;
         if (move->is_pass && move->is_resign)
             return true;
-        bool noneflag;
-        board->get(move->point, noneflag);
+        Color c = board->get(move->point);
         return (
-            noneflag &&
+            c == Color::none &&
             ! is_move_self_capture(next_player, move) &&
             ! does_move_violate_ko(next_player, move));
     }

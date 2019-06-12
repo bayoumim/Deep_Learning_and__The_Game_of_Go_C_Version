@@ -2,8 +2,9 @@
 #define _GO_TYPES_H
 
 #include <stdlib.h>
+#include <string>
 
-enum class Color{black=1, white = 2};
+enum class Color{none=0,black=1, white = 2};
 
 class Player{
 public:
@@ -16,6 +17,12 @@ public:
         Color c = color == Color::black ? Color::white : Color::black;
         Player * player = new Player(c);
         return player;
+    }
+
+    std::string print(){
+        std::string s;
+        s = color == Color::black ? "White player " : "Black player";
+        return s;
     }
 };
 

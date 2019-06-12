@@ -1,10 +1,10 @@
 #ifndef _naive_H
 #define _naive_H
-#include "agent.h"
 #include "goboard_slow.h"
 #include <vector>
 #include "helpers.h"
 #include <stdlib.h>
+#include "agent.h"
 
 
 class RandomBot : public Agent {
@@ -31,6 +31,7 @@ public:
         int r = rand() % candidates.size();
         Point * choice = candidates[r];
         candidates.erase(candidates.begin()+r);
+
         for(int i = 0; i < (int) candidates.size(); i++ ){
             delete candidates[i];
         }
