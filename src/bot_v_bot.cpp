@@ -14,7 +14,7 @@ int main(){
         std::cout << c << "[2J" << std::endl;
        // std::cout << "print board" << std::endl;
         print_board(game->board);
-        std::cout << "next move" << std::endl;
+     //   std::cout << "next move" << std::endl;
         Move *bot_move = bots[(int)game->next_player->color].select_move(game);
         print_move(game->next_player, bot_move);
         game = game->apply_move(bot_move);

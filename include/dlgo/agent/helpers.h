@@ -11,7 +11,7 @@
             Point neighbor = nl[i];
             if (board->is_on_grid(neighbor)) {
                 Color neighbor_color = board->get(neighbor);
-                assert(neighbor_color != Color::none);
+            //    assert(neighbor_color != Color::none);
                 if (neighbor_color != color)
                     return false;
             }

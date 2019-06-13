@@ -22,7 +22,7 @@ public:
 
     std::string print(){
         std::string s;
-        s = color == Color::black ? "White player " : "Black player";
+        s = color == Color::black ? "White player " : "Black player ";
         return s;
     }
 };
@@ -42,7 +42,7 @@ public:
 
 
     bool isNone(){
-        std::cout << "row : " << row << ". col : " << col << std::endl;
+     //   std::cout << "row : " << row << ". col : " << col << std::endl;
         return row < 0 || col < 0;
     }
 

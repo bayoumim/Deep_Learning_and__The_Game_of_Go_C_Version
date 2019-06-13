@@ -16,8 +16,11 @@ void print_move(Player * player, Move * move){
         move_str = "passes";
     else if (move->is_resign)
         move_str = "resigns";
-    else
-        move_str = COLS[move->point.col - 1] + move->point.row;
+    else {
+        move_str = COLS[move->point.col - 1] ;
+        move_str += std::to_string(move->point.row);
+	//std::cout << "row : " << move->point.row << std::endl;
+    }
     std::cout << player->print() <<  move_str << std::endl;
 }
 

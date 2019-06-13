@@ -141,7 +141,7 @@ public:
   
     void place_stone(Player * player, Point & point){    
         assert(is_on_grid(point));
-        assert(_grid->find(point) != _grid->end());
+        assert(_grid->find(point) == _grid->end());
          
 
         std::set< GoString * > adjacent_same_color;
