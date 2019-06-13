@@ -69,8 +69,15 @@ public:
         lcount --;
     }   
     void add_liberty(Point & point) {    
+	std::cout << "add_liberty started. " << std::endl;
+        std::cout << "liberties = " << liberties  << std::endl;
+        if(liberties->find(point) == liberties->end()) {
+	    std::cout << "add_liberty : point skipped " << std::endl;
+            return;
+        }
         liberties->insert(point);
         lcount++;
+	std::cout << "add_liberty ended" << std::endl;
     }   
     int num_liberties() {    
         return lcount;
@@ -139,7 +146,8 @@ public:
          delete _grid;
      }    
   
-    void place_stone(Player * player, Point & point){    
+    void place_stone(Player * player, Point & point){   
+        std::cout << "place_stone started." << std::endl; 
         assert(is_on_grid(point));
         assert(_grid->find(point) == _grid->end());
          
@@ -149,6 +157,7 @@ public:
         std::set<Point> *liberties = new  std::set<Point>();
         int ucount =0; 
 
+        std::cout << "place_stone: for loop." << std::endl; 
         Point * nl = point.neighbors();
         for(int i = 0; i < 4; i++){
             Point neighbor = nl[i];
@@ -177,32 +186,46 @@ public:
         s->insert(point);
         GoString *new_string = new GoString(player->color, s, liberties,ucount);
         
+        std::cout << "place_stone: for loop 2." << std::endl; 
         for(auto itr = adjacent_same_color.begin(); itr != adjacent_same_color.end(); itr++)
             new_string = GoString::merged_with(*itr, new_string );
 
+        std::cout << "place_stone: for loop 3." << std::endl; 
         for(auto itr = new_string->stones->begin(); itr != new_string->stones->end(); itr++)
             (*_grid)[ *itr ] = new_string; 
 
+        std::cout << "place_stone: for loop 4." << std::endl; 
         for(auto itr = adjacent_opposite_color.begin(); itr != adjacent_opposite_color.end(); itr++)
             (*itr)->remove_liberty(point); 
         
+        std::cout << "place_stone: for loop 5." << std::endl; 
         for(auto itr = adjacent_opposite_color.begin(); itr != adjacent_opposite_color.end(); itr++) {
             if ( (*itr)->num_liberties() == 0) _remove_string(*itr); 
         }
+        std::cout << "place_stone ended." << std::endl; 
+
     }    
 
     void  _remove_string(GoString * string) {
+        std::cout << "_remove_string started." << std::endl; 
         for(auto itr = string->stones->begin(); itr != string->stones->end(); itr++) {
             Point point = *itr; 
             Point * nl = point.neighbors();
             for(int i = 0; i < 4; i++){
+                std::cout << "i " << i << std::endl;
                 Point neighbor = nl[i];
+                //if (!is_on_grid(neighbor)) continue;
+                std::cout << "get string " << std::endl;
                 GoString * neighbor_string = (*_grid)[neighbor];
+                std::cout << "if statement. neighbor row : " << neighbor.row << " . col : " << neighbor.col << std::endl;
                 if(neighbor_string != string) neighbor_string->add_liberty(point);
             }
+            std::cout << "_remove_string : delete nl." << std::endl; 
             delete nl;
+            std::cout << "_remove_string : erase point." << std::endl; 
             _grid->erase(point);
         }
+        std::cout << "_remove_string ended." << std::endl; 
     }
 
     bool is_on_grid(Point & point){
@@ -297,6 +320,7 @@ public:
     }
 
     bool is_move_self_capture(Player * player, Move* move){
+        std::cout << "is_move_self_capture started" << std::endl;
         if (move->is_play)
             return false;
         Board * next_board = board->deepcopy();
@@ -313,14 +337,20 @@ public:
     }
 
     bool does_move_violate_ko(Player * player, Move * move){
+        std::cout << "does_move_violate_ko is started" << ". move->is_play:" << move->is_play << std::endl;
         if (!move->is_play)
             return false;
+        std::cout << "1." << std::endl;
         Board * next_board = board->deepcopy();
+        std::cout << "2." << std::endl;
         next_board->place_stone(player, move->point);
+        std::cout << "3." << std::endl;
         std::pair < Player * , Board* > * next_situation = new std::pair < Player * , Board* >(player->other(), next_board);
+        std::cout << "4." << std::endl;
         GameState * past_state = previous_state;
         std::pair < Player * , Board* > * tmp;
 
+        std::cout << "while loop started." << std::endl;
         while (past_state != NULL) {
             if ( *(tmp = past_state->situation()) == * next_situation ) {
                 delete next_situation;
@@ -331,11 +361,13 @@ public:
             past_state = past_state->previous_state;
 
         }
+        std::cout << "while loop ended." << std::endl;
         delete next_situation;
         return false;
     }
 
     bool is_valid_move(Move * move){
+        std::cout << "is_valid_move started" << std::endl;
         if (is_over())
             return false;
         if (move->is_pass && move->is_resign)
