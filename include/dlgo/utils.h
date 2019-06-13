@@ -22,16 +22,23 @@ void print_move(Player * player, Move * move){
 }
 
 void print_board(Board * board) {
+    std::cout << "no. of rows : " << board->num_rows << std::endl;
     for (int row = board->num_rows; row >= 0; row--){
+      //  std::cout << board->num_cols ;
+        std::cout << "row : "   << row << std::endl;
         std::string bump = row <= 9?  " " : "";
         std::cout << bump;
         std::string line ;
+     //   std::cout <<"hi";
         for (int col=1; col < board->num_cols + 1; col++){
+            std::cout << "col : " << col << " "<< std::endl;
             Point p(row, col);
+           // std::cout <<  "get started" << std::endl;
             Color stone = board->get(p);
-            std::cout <<  row;
+            std::cout <<  "get finished" << std::endl;
             line+= STONE_TO_CHAR[stone];
         }
+        std::cout << std::endl;
         std::cout << COLS[board->num_cols] << " ";
     }
     std::cout << std::endl;

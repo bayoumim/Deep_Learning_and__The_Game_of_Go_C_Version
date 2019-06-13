@@ -7,7 +7,7 @@
 #include "agent.h"
 
 
-class RandomBot : public Agent {
+class RandomBot /* : public Agent*/ {
 public:
     Move * select_move(GameState * game_state){
         // """Choose a random valid move that preserves our own eyes."""

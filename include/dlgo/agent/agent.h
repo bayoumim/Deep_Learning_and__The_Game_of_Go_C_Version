@@ -2,6 +2,6 @@
 #define _AGENT_H
 
 class Agent{
-     virtual Move * select_move(GameState * game_state);
+     //virtual Move * select_move(GameState * game_state)=0;
 };
 #endif

@@ -6,7 +6,7 @@
 #include <vector>
 #include <map>
 #include <algorithm>
-
+#include <iostream>
 
 class Move {
 public:
@@ -126,7 +126,7 @@ public:
     Board(int num_rows, int num_cols){    
         this->num_rows = num_rows;
         this->num_cols = num_cols;
-        
+        _grid = new std::map< Point, GoString * >();
         
     }    
 
@@ -231,9 +231,16 @@ public:
     }
 
     Color get(Point & point){
+        std::cout << "get started"<< std::endl;
+        std::cout << "point row : " << point.row << " . col : " << point.col << std::endl;
+
         auto itr = _grid->find(point);
-        if (itr != _grid->end() )
+        std::cout << "find finished!"<< std::endl;
+        if (itr != _grid->end() ) {
+            std::cout << "return none"<< std::endl;
             return Color::none;
+        }
+        std::cout << "return color"<< std::endl;
         return itr->second->color;
     }
 };
