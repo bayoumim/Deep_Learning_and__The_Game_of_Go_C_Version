@@ -7,8 +7,8 @@
 char COLS[] = "ABCDEFGHJKLMNOPQRST";
 
 std::map<Color,  std::string> STONE_TO_CHAR= {{Color::none,  " . "},
-                                              {Color::black,  " . "},
-                                              {Color::white,  " . "}};
+                                              {Color::black,  " x "},
+                                              {Color::white,  " o "}};
 
 void print_move(Player * player, Move * move){
     std::string move_str;
@@ -22,24 +22,28 @@ void print_move(Player * player, Move * move){
 }
 
 void print_board(Board * board) {
-    std::cout << "no. of rows : " << board->num_rows << std::endl;
+ //   std::cout << "no. of rows : " << board->num_rows << std::endl;
     for (int row = board->num_rows; row >= 0; row--){
       //  std::cout << board->num_cols ;
-        std::cout << "row : "   << row << std::endl;
+     //   std::cout << "row : "   << row << std::endl;
         std::string bump = row <= 9?  " " : "";
-        std::cout << bump;
+      //  std::cout << bump;
         std::string line ;
      //   std::cout <<"hi";
         for (int col=1; col < board->num_cols + 1; col++){
-            std::cout << "col : " << col << " "<< std::endl;
+     //       std::cout << "col : " << col << " "<< std::endl;
             Point p(row, col);
            // std::cout <<  "get started" << std::endl;
             Color stone = board->get(p);
-            std::cout <<  "get finished" << std::endl;
+       //     std::cout <<  "get finished" << std::endl;
             line+= STONE_TO_CHAR[stone];
         }
-        std::cout << std::endl;
-        std::cout << COLS[board->num_cols] << " ";
+        std::cout  << bump << row << line << std::endl;
+        
+    }
+    std::cout << "   "  ;
+    for (int col=0; col < board->num_cols; col++){
+        std::cout  << COLS[col] << "  ";
     }
     std::cout << std::endl;
 }

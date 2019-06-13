@@ -231,16 +231,16 @@ public:
     }
 
     Color get(Point & point){
-        std::cout << "get started"<< std::endl;
-        std::cout << "point row : " << point.row << " . col : " << point.col << std::endl;
+   //     std::cout << "get started"<< std::endl;
+   //     std::cout << "point row : " << point.row << " . col : " << point.col << std::endl;
 
         auto itr = _grid->find(point);
-        std::cout << "find finished!"<< std::endl;
-        if (itr != _grid->end() ) {
-            std::cout << "return none"<< std::endl;
+     //   std::cout << "find finished!"<< std::endl;
+        if (itr == _grid->end() ) {
+    //        std::cout << "return none"<< std::endl;
             return Color::none;
         }
-        std::cout << "return color"<< std::endl;
+   //     std::cout << "return color"<< std::endl;
         return itr->second->color;
     }
 };
