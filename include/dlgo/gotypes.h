@@ -22,7 +22,7 @@ public:
 
     std::string print(){
         std::string s;
-        s = color == Color::black ? "White player " : "Black player ";
+        s = color == Color::black ? "Black player " : "white player ";
         return s;
     }
 };

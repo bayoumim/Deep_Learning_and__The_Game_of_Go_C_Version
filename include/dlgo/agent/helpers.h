@@ -30,7 +30,7 @@
             Point corner = corners[i];
             if (board->is_on_grid(corner)) {
                 Color corner_color = board->get(corner);
-                assert(corner_color != Color::none);
+              //  assert(corner_color != Color::none);
                 if (corner_color == color)
                     friendly_corners += 1;
             }
