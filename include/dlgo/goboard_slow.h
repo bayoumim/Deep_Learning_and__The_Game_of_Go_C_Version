@@ -16,20 +16,22 @@ public:
     bool is_pass;
 
     Move(Point * point = NULL, bool is_pass = false, bool is_resign = false){
-        assert(! point->isNone() || is_pass || is_resign);
+        assert(! (point != NULL && point->isNone() ) || is_pass || is_resign);
         this->point = *point;
-        Move(is_pass, is_resign);
-    }
-    Move(bool is_pass = false, bool is_resign = false){
-        assert(!point.isNone() || is_pass || is_resign);
+        this->is_play = !point->isNone();
         this->is_pass = is_pass;
         this->is_resign = is_resign;
-        this->is_play = !point.isNone();
+
+    }
+    Move(bool is_pass = false, bool is_resign = false){
+        assert( is_pass || is_resign);
+        this->is_pass = is_pass;
+        this->is_resign = is_resign;
+        this->is_play = false;
     }
         
-    static Move* play(Point & point){ 
-        Point p = point;   
-        return new Move(&p);
+    static Move* play(Point * point){ 
+        return new Move(point);
     }    
         
     static Move* pass_turn(){ 

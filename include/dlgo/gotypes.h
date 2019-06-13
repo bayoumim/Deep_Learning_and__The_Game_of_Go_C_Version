@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 #include <string>
+#include <iostream>
 
 enum class Color{none=0,black=1, white = 2};
 
@@ -35,12 +36,14 @@ public:
         setCoord(-1, -1);
     }
 
-    bool isNone(){
-        return row < 0 || col < 0;
-    }
-
     Point(int row, int col){
         setCoord(row, col);
+    }
+
+
+    bool isNone(){
+        std::cout << "row : " << row << ". col : " << col << std::endl;
+        return row < 0 || col < 0;
     }
 
     void setCoord(int row, int col){

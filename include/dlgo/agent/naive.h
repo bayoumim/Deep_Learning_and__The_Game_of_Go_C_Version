@@ -13,9 +13,11 @@ public:
         // """Choose a random valid move that preserves our own eyes."""
         std::vector< Point * > candidates;
         for (int r =1 ; r < game_state->board->num_rows + 1; r++) {
+            std::cout << "r: " << r << std::endl;
             for (int c = 1; c < game_state->board->num_cols + 1; c++) {
+                std::cout << "c: " << c << std::endl;
                 Point *candidate = new Point(r, c);
-                Move* p = Move::play(*candidate);
+                Move* p = Move::play(candidate);
                 if ( game_state->is_valid_move(p) && 
                         ! is_point_an_eye(game_state->board,
                                             *candidate,
@@ -35,7 +37,7 @@ public:
         for(int i = 0; i < (int) candidates.size(); i++ ){
             delete candidates[i];
         }
-        return Move::play(*choice);
+        return Move::play(choice);
     }
 
 
