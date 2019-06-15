@@ -1,0 +1,1155 @@
+[2J
+print board
+ 9 .  .  .  .  .  .  .  .  . 
+ 8 .  .  .  .  .  .  .  .  . 
+ 7 .  .  .  .  .  .  .  .  . 
+ 6 .  .  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  .  .  .  . 
+ 4 .  .  .  .  .  .  .  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  .  .  .  .  .  .  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player B6
+[2J
+print board
+ 9 .  .  .  .  .  .  .  .  . 
+ 8 .  .  .  .  .  .  .  .  . 
+ 7 .  .  .  .  .  .  .  .  . 
+ 6 .  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  .  .  .  . 
+ 4 .  .  .  .  .  .  .  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  .  .  .  .  .  .  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player G1
+[2J
+print board
+ 9 .  .  .  .  .  .  .  .  . 
+ 8 .  .  .  .  .  .  .  .  . 
+ 7 .  .  .  .  .  .  .  .  . 
+ 6 .  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  .  .  .  . 
+ 4 .  .  .  .  .  .  .  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  .  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player B4
+[2J
+print board
+ 9 .  .  .  .  .  .  .  .  . 
+ 8 .  .  .  .  .  .  .  .  . 
+ 7 .  .  .  .  .  .  .  .  . 
+ 6 .  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  .  .  .  . 
+ 4 .  x  .  .  .  .  .  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  .  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player A6
+[2J
+print board
+ 9 .  .  .  .  .  .  .  .  . 
+ 8 .  .  .  .  .  .  .  .  . 
+ 7 .  .  .  .  .  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  .  .  .  . 
+ 4 .  x  .  .  .  .  .  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  .  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player B1
+[2J
+print board
+ 9 .  .  .  .  .  .  .  .  . 
+ 8 .  .  .  .  .  .  .  .  . 
+ 7 .  .  .  .  .  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  .  .  .  . 
+ 4 .  x  .  .  .  .  .  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  x  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player D4
+[2J
+print board
+ 9 .  .  .  .  .  .  .  .  . 
+ 8 .  .  .  .  .  .  .  .  . 
+ 7 .  .  .  .  .  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  .  .  .  . 
+ 4 .  x  .  o  .  .  .  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  x  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player E8
+[2J
+print board
+ 9 .  .  .  .  .  .  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 .  .  .  .  .  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  .  .  .  . 
+ 4 .  x  .  o  .  .  .  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  x  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player E7
+[2J
+print board
+ 9 .  .  .  .  .  .  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 .  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  .  .  .  . 
+ 4 .  x  .  o  .  .  .  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  x  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player F9
+[2J
+print board
+ 9 .  .  .  .  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 .  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  .  .  .  . 
+ 4 .  x  .  o  .  .  .  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  x  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player F5
+[2J
+print board
+ 9 .  .  .  .  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 .  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  o  .  .  . 
+ 4 .  x  .  o  .  .  .  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  x  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player A9
+[2J
+print board
+ 9 x  .  .  .  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 .  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  o  .  .  . 
+ 4 .  x  .  o  .  .  .  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  x  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player A7
+[2J
+print board
+ 9 x  .  .  .  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  o  .  .  . 
+ 4 .  x  .  o  .  .  .  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  x  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player G4
+[2J
+print board
+ 9 x  .  .  .  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  o  .  .  . 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  .  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  x  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player D3
+[2J
+print board
+ 9 x  .  .  .  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  o  .  .  . 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  o  .  .  .  .  . 
+ 2 .  .  .  .  .  .  .  .  . 
+ 1 .  x  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player C2
+[2J
+print board
+ 9 x  .  .  .  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  o  .  .  . 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  o  .  .  .  .  . 
+ 2 .  .  x  .  .  .  .  .  . 
+ 1 .  x  .  .  .  .  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player F1
+[2J
+print board
+ 9 x  .  .  .  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  o  .  .  . 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  o  .  .  .  .  . 
+ 2 .  .  x  .  .  .  .  .  . 
+ 1 .  x  .  .  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player J5
+[2J
+print board
+ 9 x  .  .  .  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  o  .  .  x 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  o  .  .  .  .  . 
+ 2 .  .  x  .  .  .  .  .  . 
+ 1 .  x  .  .  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player D1
+[2J
+print board
+ 9 x  .  .  .  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  o  .  .  x 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  o  .  .  .  .  . 
+ 2 .  .  x  .  .  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player E3
+[2J
+print board
+ 9 x  .  .  .  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  .  . 
+ 5 .  .  .  .  .  o  .  .  x 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  o  x  .  .  .  . 
+ 2 .  .  x  .  .  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player H6
+[2J
+print board
+ 9 x  .  .  .  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  .  .  .  .  o  .  .  x 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  o  x  .  .  .  . 
+ 2 .  .  x  .  .  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player D9
+[2J
+print board
+ 9 x  .  .  x  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  .  .  .  .  o  .  .  x 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  o  x  .  .  .  . 
+ 2 .  .  x  .  .  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player E2
+[2J
+print board
+ 9 x  .  .  x  .  x  .  .  . 
+ 8 .  .  .  .  x  .  .  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  .  .  .  .  o  .  .  x 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  o  x  .  .  .  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player A8
+[2J
+print board
+ 9 x  .  .  x  .  x  .  .  . 
+ 8 x  .  .  .  x  .  .  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  .  .  .  .  o  .  .  x 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  o  x  .  .  .  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player G8
+[2J
+print board
+ 9 x  .  .  x  .  x  .  .  . 
+ 8 x  .  .  .  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  .  .  .  .  o  .  .  x 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  o  x  .  .  .  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player B5
+[2J
+print board
+ 9 x  .  .  x  .  x  .  .  . 
+ 8 x  .  .  .  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  x  .  .  .  o  .  .  x 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  o  x  .  .  .  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player C5
+[2J
+print board
+ 9 x  .  .  x  .  x  .  .  . 
+ 8 x  .  .  .  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  .  o  .  .  x  .  . 
+ 3 .  .  .  o  x  .  .  .  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player F4
+[2J
+print board
+ 9 x  .  .  x  .  x  .  .  . 
+ 8 x  .  .  .  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  .  o  .  x  x  .  . 
+ 3 .  .  .  o  x  .  .  .  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player C9
+[2J
+print board
+ 9 x  .  o  x  .  x  .  .  . 
+ 8 x  .  .  .  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  .  o  .  x  x  .  . 
+ 3 .  .  .  o  x  .  .  .  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player E4
+[2J
+print board
+ 9 x  .  o  x  .  x  .  .  . 
+ 8 x  .  .  .  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  .  o  x  x  x  .  . 
+ 3 .  .  .  o  x  .  .  .  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player D8
+[2J
+print board
+ 9 x  .  o  x  .  x  .  .  . 
+ 8 x  .  .  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  .  o  x  x  x  .  . 
+ 3 .  .  .  o  x  .  .  .  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player H3
+[2J
+print board
+ 9 x  .  o  x  .  x  .  .  . 
+ 8 x  .  .  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  .  o  x  x  x  .  . 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  .  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player E1
+[2J
+print board
+ 9 x  .  o  x  .  x  .  .  . 
+ 8 x  .  .  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  .  o  x  x  x  .  . 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  o  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player E9
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  .  .  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  .  o  x  x  x  .  . 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  o  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player C4
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  .  .  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  o  o  x  x  x  .  . 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  o  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player C8
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  .  x  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  o  o  x  x  x  .  . 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  .  x  .  o  .  .  .  . 
+ 1 .  x  .  o  o  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player B2
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  .  x  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  .  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  o  o  x  x  x  .  . 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  .  o  .  .  .  . 
+ 1 .  x  .  o  o  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player G6
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  .  x  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  o  o  x  x  x  .  . 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  .  o  .  .  .  . 
+ 1 .  x  .  o  o  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player H2
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  .  x  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  o  o  x  x  x  .  . 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  .  o  .  .  o  . 
+ 1 .  x  .  o  o  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player J2
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  .  x  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  o  o  x  x  x  .  . 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  .  o  .  .  o  x 
+ 1 .  x  .  o  o  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player J4
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  .  x  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  .  o  .  .  o  x 
+ 1 .  x  .  o  o  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player D2
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  .  x  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 .  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  x  o  .  .  o  x 
+ 1 .  x  .  o  o  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player A4
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  .  x  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  x  o  .  .  o  x 
+ 1 .  x  .  o  o  o  o  .  . 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player J1
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  .  x  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  x  o  .  .  o  x 
+ 1 .  x  .  o  o  o  o  .  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player C1
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  .  x  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  x  o  .  .  o  x 
+ 1 .  x  o  o  o  o  o  .  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player B8
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  x  x  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  .  .  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  x  o  .  .  o  x 
+ 1 .  x  o  o  o  o  o  .  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player D5
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  x  x  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  x  o  .  .  o  x 
+ 1 .  x  o  o  o  o  o  .  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player E5
+[2J
+print board
+ 9 x  .  o  x  x  x  .  .  . 
+ 8 x  x  x  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  x  o  .  .  o  x 
+ 1 .  x  o  o  o  o  o  .  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player B9
+[2J
+print board
+ 9 .  o  o  x  x  x  .  .  . 
+ 8 .  .  .  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  x  o  .  .  o  x 
+ 1 .  x  o  o  o  o  o  .  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player G2
+[2J
+print board
+ 9 .  o  o  x  x  x  .  .  . 
+ 8 .  .  .  o  x  .  o  .  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 .  x  .  .  .  .  .  .  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player H8
+[2J
+print board
+ 9 .  o  o  x  x  x  .  .  . 
+ 8 .  .  .  o  x  .  o  o  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  .  .  x  . 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 .  x  .  .  .  .  .  .  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player F3
+[2J
+print board
+ 9 .  o  o  x  x  x  .  .  . 
+ 8 .  .  .  o  x  .  o  o  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  x  .  x  . 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 .  x  .  .  .  .  .  .  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player H1
+[2J
+print board
+ 9 .  o  o  x  x  x  .  .  . 
+ 8 .  .  .  o  x  .  o  o  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  x  .  x  . 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 .  x  .  .  .  .  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player J3
+[2J
+print board
+ 9 .  o  o  x  x  x  .  .  . 
+ 8 .  .  .  o  x  .  o  o  . 
+ 7 o  .  .  .  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  x  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 .  x  .  .  .  .  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player D7
+[2J
+print board
+ 9 .  o  o  x  x  x  .  .  . 
+ 8 .  .  .  o  x  .  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  x  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 .  x  .  .  .  .  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player A1
+[2J
+print board
+ 9 .  o  o  x  x  x  .  .  . 
+ 8 .  .  .  o  x  .  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  .  .  o  x  x  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  .  .  .  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player B3
+[2J
+print board
+ 9 .  o  o  x  x  x  .  .  . 
+ 8 .  .  .  o  x  .  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  o  .  o  x  x  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  .  .  .  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player G9
+[2J
+print board
+ 9 .  o  o  x  x  x  x  .  . 
+ 8 .  .  .  o  x  .  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  .  .  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  o  .  o  x  x  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  .  .  .  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player D6
+[2J
+print board
+ 9 .  o  o  x  x  x  x  .  . 
+ 8 .  .  .  o  x  .  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  o  .  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  o  .  o  x  x  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  .  .  .  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player E6
+[2J
+print board
+ 9 .  o  o  x  x  x  x  .  . 
+ 8 .  .  .  o  x  .  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  o  x  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  o  .  o  x  x  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  .  .  .  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player D1
+[2J
+print board
+ 9 .  o  o  x  x  x  x  .  . 
+ 8 .  .  .  o  x  .  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  o  x  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  o  .  o  x  x  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  .  .  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player J9
+[2J
+print board
+ 9 .  o  o  x  x  x  x  .  x 
+ 8 .  .  .  o  x  .  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  o  x  .  x  o  . 
+ 5 .  x  o  o  x  o  .  .  x 
+ 4 o  x  o  o  x  x  x  .  o 
+ 3 .  o  .  o  x  x  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  .  .  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player F6
+[2J
+print board
+ 9 .  o  o  x  x  x  x  .  x 
+ 8 .  .  .  o  x  .  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  o  .  o  x  o  . 
+ 5 .  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  .  .  .  .  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  .  .  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player F8
+[2J
+print board
+ 9 .  o  o  x  x  x  x  .  x 
+ 8 .  .  .  o  x  x  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  o  .  o  x  o  . 
+ 5 .  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  .  .  .  .  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  .  .  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player E4
+[2J
+print board
+ 9 .  o  o  x  x  x  x  .  x 
+ 8 .  .  .  o  x  x  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  o  .  o  x  o  . 
+ 5 .  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  o  .  .  .  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  .  .  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player F1
+[2J
+print board
+ 9 .  o  o  x  x  x  x  .  x 
+ 8 .  .  .  o  x  x  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  o  .  o  x  o  . 
+ 5 .  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  o  .  .  .  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  .  x  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player J6
+[2J
+print board
+ 9 .  o  o  x  x  x  x  .  x 
+ 8 .  .  .  o  x  x  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  o  .  o  x  o  o 
+ 5 .  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  o  .  .  .  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  .  x  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player A9
+[2J
+print board
+ 9 x  .  .  x  x  x  x  .  x 
+ 8 .  .  .  o  x  x  o  o  . 
+ 7 o  .  .  o  o  .  .  .  . 
+ 6 o  x  .  o  .  o  x  o  o 
+ 5 .  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  o  .  .  .  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  .  x  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player H7
+[2J
+print board
+ 9 x  .  .  x  x  x  x  .  x 
+ 8 .  .  .  o  x  x  o  o  . 
+ 7 o  .  .  o  o  .  .  o  . 
+ 6 o  x  .  o  .  o  x  o  o 
+ 5 .  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  o  .  .  .  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  .  x  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player E1
+[2J
+print board
+ 9 x  .  .  x  x  x  x  .  x 
+ 8 .  .  .  o  x  x  o  o  . 
+ 7 o  .  .  o  o  .  .  o  . 
+ 6 o  x  .  o  .  o  x  o  o 
+ 5 .  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  o  .  .  .  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  x  x  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player B8
+[2J
+print board
+ 9 x  .  .  x  x  x  x  .  x 
+ 8 .  o  .  o  x  x  o  o  . 
+ 7 o  .  .  o  o  .  .  o  . 
+ 6 o  x  .  o  .  o  x  o  o 
+ 5 .  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  o  .  .  .  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  x  x  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player A8
+[2J
+print board
+ 9 x  .  .  x  x  x  x  .  x 
+ 8 x  o  .  o  x  x  o  o  . 
+ 7 .  .  .  o  o  .  .  o  . 
+ 6 .  x  .  o  .  o  x  o  o 
+ 5 .  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  o  .  .  .  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  x  x  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player H4
+[2J
+print board
+ 9 x  .  .  x  x  x  x  .  x 
+ 8 x  o  .  o  x  x  o  o  . 
+ 7 .  .  .  o  o  .  .  o  . 
+ 6 .  x  .  o  .  o  x  o  o 
+ 5 .  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  o  .  .  o  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  x  x  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player A5
+[2J
+print board
+ 9 x  .  .  x  x  x  x  .  x 
+ 8 x  o  .  o  x  x  o  o  . 
+ 7 .  .  .  o  o  .  .  o  . 
+ 6 .  x  .  o  .  o  x  o  o 
+ 5 x  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  o  .  .  o  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 .  o  x  x  .  .  x  o  x 
+ 1 x  x  .  o  x  x  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player A2
+[2J
+print board
+ 9 x  .  .  x  x  x  x  .  x 
+ 8 x  o  .  o  x  x  o  o  . 
+ 7 .  .  .  o  o  .  .  o  . 
+ 6 .  x  .  o  .  o  x  o  o 
+ 5 x  x  o  o  .  o  .  .  x 
+ 4 o  x  o  o  o  .  .  o  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 o  o  x  x  .  .  x  o  x 
+ 1 .  .  .  o  x  x  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+Black player G5
+[2J
+print board
+ 9 x  .  .  x  x  x  x  .  x 
+ 8 x  o  .  o  x  x  o  o  . 
+ 7 .  .  .  o  o  .  .  o  . 
+ 6 .  x  .  o  .  o  x  o  o 
+ 5 x  x  o  o  .  o  x  .  x 
+ 4 o  x  o  o  o  .  .  o  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 o  o  x  x  .  .  x  o  x 
+ 1 .  .  .  o  x  x  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+white player H5
+[2J
+print board
+ 9 x  .  .  x  x  x  x  .  x 
+ 8 x  o  .  o  x  x  o  o  . 
+ 7 .  .  .  o  o  .  .  o  . 
+ 6 .  x  .  o  .  o  x  o  o 
+ 5 x  x  o  o  .  o  x  o  . 
+ 4 o  x  o  o  o  .  .  o  o 
+ 3 .  o  .  o  .  .  .  x  x 
+ 2 o  o  x  x  .  .  x  o  x 
+ 1 .  .  .  o  x  x  .  o  x 
+ 0 .  .  .  .  .  .  .  .  . 
+   A  B  C  D  E  F  G  H  J  
+next move
+program: include/dlgo/goboard_slow.h:67: void GoString::remove_liberty(Point&): Assertion `lcount >0' failed.
