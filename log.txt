@@ -12,7 +12,335 @@ print board
  0 .  .  .  .  .  .  .  .  . 
    A  B  C  D  E  F  G  H  J  
 next move
+GoString color : black
+point ( 2, 1 )point ( 1, 2 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 2, 2 )point ( 1, 3 )point ( 1, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 3 )point ( 1, 4 )point ( 1, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 4 )point ( 1, 5 )point ( 1, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 5 )point ( 1, 6 )point ( 1, 4 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 6 )point ( 1, 7 )point ( 1, 5 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 8 )point ( 1, 9 )point ( 1, 7 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 9 )point ( 1, 8 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 3, 1 )point ( 2, 2 )point ( 1, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 2 )point ( 2, 3 )point ( 2, 1 )point ( 1, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 3, 3 )point ( 2, 4 )point ( 2, 2 )point ( 1, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 3, 4 )point ( 2, 5 )point ( 2, 3 )point ( 1, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 3, 5 )point ( 2, 6 )point ( 2, 4 )point ( 1, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 3, 6 )point ( 2, 7 )point ( 2, 5 )point ( 1, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 3, 7 )point ( 2, 8 )point ( 2, 6 )point ( 1, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 3, 8 )point ( 2, 9 )point ( 2, 7 )point ( 1, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 3, 9 )point ( 2, 8 )point ( 1, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 1 )point ( 3, 2 )point ( 2, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 2 )point ( 3, 3 )point ( 3, 1 )point ( 2, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 4, 3 )point ( 3, 4 )point ( 3, 2 )point ( 2, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 4, 4 )point ( 3, 5 )point ( 3, 3 )point ( 2, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 4, 5 )point ( 3, 6 )point ( 3, 4 )point ( 2, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 4, 6 )point ( 3, 7 )point ( 3, 5 )point ( 2, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 4, 7 )point ( 3, 8 )point ( 3, 6 )point ( 2, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 4, 8 )point ( 3, 9 )point ( 3, 7 )point ( 2, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 4, 9 )point ( 3, 8 )point ( 2, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 1 )point ( 4, 2 )point ( 3, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 3 )point ( 4, 4 )point ( 4, 2 )point ( 3, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 4 )point ( 4, 5 )point ( 4, 3 )point ( 3, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 5 )point ( 4, 6 )point ( 4, 4 )point ( 3, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 6 )point ( 4, 7 )point ( 4, 5 )point ( 3, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 7 )point ( 4, 8 )point ( 4, 6 )point ( 3, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 8 )point ( 4, 9 )point ( 4, 7 )point ( 3, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 9 )point ( 4, 8 )point ( 3, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 6, 1 )point ( 5, 2 )point ( 4, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 6, 2 )point ( 5, 3 )point ( 5, 1 )point ( 4, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 6, 3 )point ( 5, 4 )point ( 5, 2 )point ( 4, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 6, 4 )point ( 5, 5 )point ( 5, 3 )point ( 4, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 6, 5 )point ( 5, 6 )point ( 5, 4 )point ( 4, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 6, 6 )point ( 5, 7 )point ( 5, 5 )point ( 4, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 6, 7 )point ( 5, 8 )point ( 5, 6 )point ( 4, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 6, 8 )point ( 5, 9 )point ( 5, 7 )point ( 4, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 6, 9 )point ( 5, 8 )point ( 4, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 1 )point ( 6, 2 )point ( 5, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 3 )point ( 6, 4 )point ( 6, 2 )point ( 5, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 4 )point ( 6, 5 )point ( 6, 3 )point ( 5, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 5 )point ( 6, 6 )point ( 6, 4 )point ( 5, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 6 )point ( 6, 7 )point ( 6, 5 )point ( 5, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 7 )point ( 6, 8 )point ( 6, 6 )point ( 5, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 8 )point ( 6, 9 )point ( 6, 7 )point ( 5, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 9 )point ( 6, 8 )point ( 5, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 8, 1 )point ( 7, 2 )point ( 6, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 8, 2 )point ( 7, 3 )point ( 7, 1 )point ( 6, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 8, 3 )point ( 7, 4 )point ( 7, 2 )point ( 6, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 8, 4 )point ( 7, 5 )point ( 7, 3 )point ( 6, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 8, 5 )point ( 7, 6 )point ( 7, 4 )point ( 6, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 8, 6 )point ( 7, 7 )point ( 7, 5 )point ( 6, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 8, 7 )point ( 7, 8 )point ( 7, 6 )point ( 6, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 8, 8 )point ( 7, 9 )point ( 7, 7 )point ( 6, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 8, 9 )point ( 7, 8 )point ( 6, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 1 )point ( 8, 2 )point ( 7, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 2 )point ( 8, 3 )point ( 8, 1 )point ( 7, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 9, 3 )point ( 8, 4 )point ( 8, 2 )point ( 7, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 9, 4 )point ( 8, 5 )point ( 8, 3 )point ( 7, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 9, 5 )point ( 8, 6 )point ( 8, 4 )point ( 7, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 9, 6 )point ( 8, 7 )point ( 8, 5 )point ( 7, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 9, 7 )point ( 8, 8 )point ( 8, 6 )point ( 7, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 9, 8 )point ( 8, 9 )point ( 8, 7 )point ( 7, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 9, 9 )point ( 8, 8 )point ( 7, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 2 )point ( 8, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 9, 3 )point ( 9, 1 )point ( 8, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 4 )point ( 9, 2 )point ( 8, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 5 )point ( 9, 3 )point ( 8, 4 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 6 )point ( 9, 4 )point ( 8, 5 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 7 )point ( 9, 5 )point ( 8, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 8 )point ( 9, 6 )point ( 8, 7 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 9 )point ( 9, 7 )point ( 8, 8 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 8 )point ( 8, 9 )
+lcount : 2
+tmplcount : 2
 Black player B6
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
 [2J
 print board
  9 .  .  .  .  .  .  .  .  . 
@@ -27,7 +355,655 @@ print board
  0 .  .  .  .  .  .  .  .  . 
    A  B  C  D  E  F  G  H  J  
 next move
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 1 )point ( 1, 2 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 2 )point ( 1, 3 )point ( 1, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 3 )point ( 1, 4 )point ( 1, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 4 )point ( 1, 5 )point ( 1, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 5 )point ( 1, 6 )point ( 1, 4 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 6 )point ( 1, 7 )point ( 1, 5 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 8 )point ( 1, 9 )point ( 1, 7 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 9 )point ( 1, 8 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 3, 1 )point ( 2, 2 )point ( 1, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 3, 2 )point ( 2, 3 )point ( 2, 1 )point ( 1, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 3, 3 )point ( 2, 4 )point ( 2, 2 )point ( 1, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 3, 4 )point ( 2, 5 )point ( 2, 3 )point ( 1, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 3, 5 )point ( 2, 6 )point ( 2, 4 )point ( 1, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 3, 6 )point ( 2, 7 )point ( 2, 5 )point ( 1, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 3, 7 )point ( 2, 8 )point ( 2, 6 )point ( 1, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 3, 8 )point ( 2, 9 )point ( 2, 7 )point ( 1, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 3, 9 )point ( 2, 8 )point ( 1, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 4, 1 )point ( 3, 2 )point ( 2, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 4, 2 )point ( 3, 3 )point ( 3, 1 )point ( 2, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 4, 3 )point ( 3, 4 )point ( 3, 2 )point ( 2, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 4, 4 )point ( 3, 5 )point ( 3, 3 )point ( 2, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 4, 5 )point ( 3, 6 )point ( 3, 4 )point ( 2, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 4, 6 )point ( 3, 7 )point ( 3, 5 )point ( 2, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 4, 7 )point ( 3, 8 )point ( 3, 6 )point ( 2, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 4, 8 )point ( 3, 9 )point ( 3, 7 )point ( 2, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 4, 9 )point ( 3, 8 )point ( 2, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 5, 1 )point ( 4, 2 )point ( 3, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 5, 3 )point ( 4, 4 )point ( 4, 2 )point ( 3, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 5, 4 )point ( 4, 5 )point ( 4, 3 )point ( 3, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 5, 5 )point ( 4, 6 )point ( 4, 4 )point ( 3, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 5, 6 )point ( 4, 7 )point ( 4, 5 )point ( 3, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 5, 7 )point ( 4, 8 )point ( 4, 6 )point ( 3, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 5, 8 )point ( 4, 9 )point ( 4, 7 )point ( 3, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 5, 9 )point ( 4, 8 )point ( 3, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 6, 1 )point ( 5, 2 )point ( 4, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 5, 3 )point ( 5, 1 )point ( 4, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 6, 3 )point ( 5, 4 )point ( 5, 2 )point ( 4, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 6, 4 )point ( 5, 5 )point ( 5, 3 )point ( 4, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 6, 5 )point ( 5, 6 )point ( 5, 4 )point ( 4, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 6, 6 )point ( 5, 7 )point ( 5, 5 )point ( 4, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 6, 7 )point ( 5, 8 )point ( 5, 6 )point ( 4, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 6, 8 )point ( 5, 9 )point ( 5, 7 )point ( 4, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 6, 9 )point ( 5, 8 )point ( 4, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 7, 3 )point ( 6, 4 )point ( 5, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 7, 4 )point ( 6, 5 )point ( 6, 3 )point ( 5, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 7, 5 )point ( 6, 6 )point ( 6, 4 )point ( 5, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 7, 6 )point ( 6, 7 )point ( 6, 5 )point ( 5, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 7, 7 )point ( 6, 8 )point ( 6, 6 )point ( 5, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 7, 8 )point ( 6, 9 )point ( 6, 7 )point ( 5, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 7, 9 )point ( 6, 8 )point ( 5, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 8, 1 )point ( 7, 2 )point ( 6, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 8, 2 )point ( 7, 3 )point ( 7, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 8, 3 )point ( 7, 4 )point ( 7, 2 )point ( 6, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 8, 4 )point ( 7, 5 )point ( 7, 3 )point ( 6, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 8, 5 )point ( 7, 6 )point ( 7, 4 )point ( 6, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 8, 6 )point ( 7, 7 )point ( 7, 5 )point ( 6, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 8, 7 )point ( 7, 8 )point ( 7, 6 )point ( 6, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 8, 8 )point ( 7, 9 )point ( 7, 7 )point ( 6, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 8, 9 )point ( 7, 8 )point ( 6, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 1 )point ( 8, 2 )point ( 7, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 2 )point ( 8, 3 )point ( 8, 1 )point ( 7, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 3 )point ( 8, 4 )point ( 8, 2 )point ( 7, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 4 )point ( 8, 5 )point ( 8, 3 )point ( 7, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 5 )point ( 8, 6 )point ( 8, 4 )point ( 7, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 6 )point ( 8, 7 )point ( 8, 5 )point ( 7, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 7 )point ( 8, 8 )point ( 8, 6 )point ( 7, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 8 )point ( 8, 9 )point ( 8, 7 )point ( 7, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 9 )point ( 8, 8 )point ( 7, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 2 )point ( 8, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 3 )point ( 9, 1 )point ( 8, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 4 )point ( 9, 2 )point ( 8, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 5 )point ( 9, 3 )point ( 8, 4 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 6 )point ( 9, 4 )point ( 8, 5 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 7 )point ( 9, 5 )point ( 8, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 8 )point ( 9, 6 )point ( 8, 7 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 9 )point ( 9, 7 )point ( 8, 8 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 9, 8 )point ( 8, 9 )
+lcount : 2
+tmplcount : 2
 white player G1
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
 [2J
 print board
  9 .  .  .  .  .  .  .  .  . 
@@ -42,7 +1018,983 @@ print board
  0 .  .  .  .  .  .  .  .  . 
    A  B  C  D  E  F  G  H  J  
 next move
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 1 )point ( 1, 2 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 2 )point ( 1, 3 )point ( 1, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 3 )point ( 1, 4 )point ( 1, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 4 )point ( 1, 5 )point ( 1, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 5 )point ( 1, 6 )point ( 1, 4 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 6 )point ( 1, 5 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 8 )point ( 1, 9 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 9 )point ( 1, 8 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 1 )point ( 2, 2 )point ( 1, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 2 )point ( 2, 3 )point ( 2, 1 )point ( 1, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 3 )point ( 2, 4 )point ( 2, 2 )point ( 1, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 4 )point ( 2, 5 )point ( 2, 3 )point ( 1, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 5 )point ( 2, 6 )point ( 2, 4 )point ( 1, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 6 )point ( 2, 7 )point ( 2, 5 )point ( 1, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 7 )point ( 2, 8 )point ( 2, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 8 )point ( 2, 9 )point ( 2, 7 )point ( 1, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 9 )point ( 2, 8 )point ( 1, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 1 )point ( 3, 2 )point ( 2, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 2 )point ( 3, 3 )point ( 3, 1 )point ( 2, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 3 )point ( 3, 4 )point ( 3, 2 )point ( 2, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 4 )point ( 3, 5 )point ( 3, 3 )point ( 2, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 5 )point ( 3, 6 )point ( 3, 4 )point ( 2, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 6 )point ( 3, 7 )point ( 3, 5 )point ( 2, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 7 )point ( 3, 8 )point ( 3, 6 )point ( 2, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 8 )point ( 3, 9 )point ( 3, 7 )point ( 2, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 9 )point ( 3, 8 )point ( 2, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 1 )point ( 4, 2 )point ( 3, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 3 )point ( 4, 4 )point ( 4, 2 )point ( 3, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 4 )point ( 4, 5 )point ( 4, 3 )point ( 3, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 5 )point ( 4, 6 )point ( 4, 4 )point ( 3, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 6 )point ( 4, 7 )point ( 4, 5 )point ( 3, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 7 )point ( 4, 8 )point ( 4, 6 )point ( 3, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 8 )point ( 4, 9 )point ( 4, 7 )point ( 3, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 9 )point ( 4, 8 )point ( 3, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 6, 1 )point ( 5, 2 )point ( 4, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 3 )point ( 5, 1 )point ( 4, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 6, 3 )point ( 5, 4 )point ( 5, 2 )point ( 4, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 6, 4 )point ( 5, 5 )point ( 5, 3 )point ( 4, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 6, 5 )point ( 5, 6 )point ( 5, 4 )point ( 4, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 6, 6 )point ( 5, 7 )point ( 5, 5 )point ( 4, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 6, 7 )point ( 5, 8 )point ( 5, 6 )point ( 4, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 6, 8 )point ( 5, 9 )point ( 5, 7 )point ( 4, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 6, 9 )point ( 5, 8 )point ( 4, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 3 )point ( 6, 4 )point ( 5, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 4 )point ( 6, 5 )point ( 6, 3 )point ( 5, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 5 )point ( 6, 6 )point ( 6, 4 )point ( 5, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 6 )point ( 6, 7 )point ( 6, 5 )point ( 5, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 7 )point ( 6, 8 )point ( 6, 6 )point ( 5, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 8 )point ( 6, 9 )point ( 6, 7 )point ( 5, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 9 )point ( 6, 8 )point ( 5, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 8, 1 )point ( 7, 2 )point ( 6, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 8, 2 )point ( 7, 3 )point ( 7, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 8, 3 )point ( 7, 4 )point ( 7, 2 )point ( 6, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 8, 4 )point ( 7, 5 )point ( 7, 3 )point ( 6, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 8, 5 )point ( 7, 6 )point ( 7, 4 )point ( 6, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 8, 6 )point ( 7, 7 )point ( 7, 5 )point ( 6, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 8, 7 )point ( 7, 8 )point ( 7, 6 )point ( 6, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 8, 8 )point ( 7, 9 )point ( 7, 7 )point ( 6, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 8, 9 )point ( 7, 8 )point ( 6, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 1 )point ( 8, 2 )point ( 7, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 2 )point ( 8, 3 )point ( 8, 1 )point ( 7, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 3 )point ( 8, 4 )point ( 8, 2 )point ( 7, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 4 )point ( 8, 5 )point ( 8, 3 )point ( 7, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 5 )point ( 8, 6 )point ( 8, 4 )point ( 7, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 6 )point ( 8, 7 )point ( 8, 5 )point ( 7, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 7 )point ( 8, 8 )point ( 8, 6 )point ( 7, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 8 )point ( 8, 9 )point ( 8, 7 )point ( 7, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 9 )point ( 8, 8 )point ( 7, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 2 )point ( 8, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 3 )point ( 9, 1 )point ( 8, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 4 )point ( 9, 2 )point ( 8, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 5 )point ( 9, 3 )point ( 8, 4 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 6 )point ( 9, 4 )point ( 8, 5 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 7 )point ( 9, 5 )point ( 8, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 8 )point ( 9, 6 )point ( 8, 7 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 9 )point ( 9, 7 )point ( 8, 8 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 9, 8 )point ( 8, 9 )
+lcount : 2
+tmplcount : 2
 Black player B4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
 [2J
 print board
  9 .  .  .  .  .  .  .  .  . 
@@ -57,7 +2009,1283 @@ print board
  0 .  .  .  .  .  .  .  .  . 
    A  B  C  D  E  F  G  H  J  
 next move
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 2, 1 )point ( 1, 2 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 2, 2 )point ( 1, 3 )point ( 1, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 2, 3 )point ( 1, 4 )point ( 1, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 2, 4 )point ( 1, 5 )point ( 1, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 2, 5 )point ( 1, 6 )point ( 1, 4 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 2, 6 )point ( 1, 5 )
+lcount : 2
+tmplcount : 2
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 2, 8 )point ( 1, 9 )
+lcount : 2
+tmplcount : 2
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 2, 9 )point ( 1, 8 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 3, 1 )point ( 2, 2 )point ( 1, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 3, 2 )point ( 2, 3 )point ( 2, 1 )point ( 1, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 3, 3 )point ( 2, 4 )point ( 2, 2 )point ( 1, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 3, 4 )point ( 2, 5 )point ( 2, 3 )point ( 1, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 3, 5 )point ( 2, 6 )point ( 2, 4 )point ( 1, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 3, 6 )point ( 2, 7 )point ( 2, 5 )point ( 1, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 3, 7 )point ( 2, 8 )point ( 2, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 3, 8 )point ( 2, 9 )point ( 2, 7 )point ( 1, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 3, 9 )point ( 2, 8 )point ( 1, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 4, 1 )point ( 3, 2 )point ( 2, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 3, 3 )point ( 3, 1 )point ( 2, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 4, 3 )point ( 3, 4 )point ( 3, 2 )point ( 2, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 4, 4 )point ( 3, 5 )point ( 3, 3 )point ( 2, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 4, 5 )point ( 3, 6 )point ( 3, 4 )point ( 2, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 4, 6 )point ( 3, 7 )point ( 3, 5 )point ( 2, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 4, 7 )point ( 3, 8 )point ( 3, 6 )point ( 2, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 4, 8 )point ( 3, 9 )point ( 3, 7 )point ( 2, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 4, 9 )point ( 3, 8 )point ( 2, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 5, 1 )point ( 3, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 5, 3 )point ( 4, 4 )point ( 3, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 5, 4 )point ( 4, 5 )point ( 4, 3 )point ( 3, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 5, 5 )point ( 4, 6 )point ( 4, 4 )point ( 3, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 5, 6 )point ( 4, 7 )point ( 4, 5 )point ( 3, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 5, 7 )point ( 4, 8 )point ( 4, 6 )point ( 3, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 5, 8 )point ( 4, 9 )point ( 4, 7 )point ( 3, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 5, 9 )point ( 4, 8 )point ( 3, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 6, 1 )point ( 5, 2 )point ( 4, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 5, 3 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 6, 3 )point ( 5, 4 )point ( 5, 2 )point ( 4, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 6, 4 )point ( 5, 5 )point ( 5, 3 )point ( 4, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 6, 5 )point ( 5, 6 )point ( 5, 4 )point ( 4, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 6, 6 )point ( 5, 7 )point ( 5, 5 )point ( 4, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 6, 7 )point ( 5, 8 )point ( 5, 6 )point ( 4, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 6, 8 )point ( 5, 9 )point ( 5, 7 )point ( 4, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 6, 9 )point ( 5, 8 )point ( 4, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 3 )point ( 6, 4 )point ( 5, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 4 )point ( 6, 5 )point ( 6, 3 )point ( 5, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 5 )point ( 6, 6 )point ( 6, 4 )point ( 5, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 6 )point ( 6, 7 )point ( 6, 5 )point ( 5, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 7 )point ( 6, 8 )point ( 6, 6 )point ( 5, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 8 )point ( 6, 9 )point ( 6, 7 )point ( 5, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 9 )point ( 6, 8 )point ( 5, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 8, 1 )point ( 7, 2 )point ( 6, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 8, 2 )point ( 7, 3 )point ( 7, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 8, 3 )point ( 7, 4 )point ( 7, 2 )point ( 6, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 8, 4 )point ( 7, 5 )point ( 7, 3 )point ( 6, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 8, 5 )point ( 7, 6 )point ( 7, 4 )point ( 6, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 8, 6 )point ( 7, 7 )point ( 7, 5 )point ( 6, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 8, 7 )point ( 7, 8 )point ( 7, 6 )point ( 6, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 8, 8 )point ( 7, 9 )point ( 7, 7 )point ( 6, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 8, 9 )point ( 7, 8 )point ( 6, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 1 )point ( 8, 2 )point ( 7, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 2 )point ( 8, 3 )point ( 8, 1 )point ( 7, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 3 )point ( 8, 4 )point ( 8, 2 )point ( 7, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 4 )point ( 8, 5 )point ( 8, 3 )point ( 7, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 5 )point ( 8, 6 )point ( 8, 4 )point ( 7, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 6 )point ( 8, 7 )point ( 8, 5 )point ( 7, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 7 )point ( 8, 8 )point ( 8, 6 )point ( 7, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 8 )point ( 8, 9 )point ( 8, 7 )point ( 7, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 9 )point ( 8, 8 )point ( 7, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 2 )point ( 8, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 3 )point ( 9, 1 )point ( 8, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 4 )point ( 9, 2 )point ( 8, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 5 )point ( 9, 3 )point ( 8, 4 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 6 )point ( 9, 4 )point ( 8, 5 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 7 )point ( 9, 5 )point ( 8, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 8 )point ( 9, 6 )point ( 8, 7 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 9 )point ( 9, 7 )point ( 8, 8 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 9, 8 )point ( 8, 9 )
+lcount : 2
+tmplcount : 2
 white player A6
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 6, 1 )point ( 5, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
 [2J
 print board
  9 .  .  .  .  .  .  .  .  . 
@@ -72,1084 +3300,755 @@ print board
  0 .  .  .  .  .  .  .  .  . 
    A  B  C  D  E  F  G  H  J  
 next move
-Black player B1
-[2J
-print board
- 9 .  .  .  .  .  .  .  .  . 
- 8 .  .  .  .  .  .  .  .  . 
- 7 .  .  .  .  .  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  .  .  .  . 
- 4 .  x  .  .  .  .  .  .  . 
- 3 .  .  .  .  .  .  .  .  . 
- 2 .  .  .  .  .  .  .  .  . 
- 1 .  x  .  .  .  .  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player D4
-[2J
-print board
- 9 .  .  .  .  .  .  .  .  . 
- 8 .  .  .  .  .  .  .  .  . 
- 7 .  .  .  .  .  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  .  .  .  . 
- 4 .  x  .  o  .  .  .  .  . 
- 3 .  .  .  .  .  .  .  .  . 
- 2 .  .  .  .  .  .  .  .  . 
- 1 .  x  .  .  .  .  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player E8
-[2J
-print board
- 9 .  .  .  .  .  .  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 .  .  .  .  .  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  .  .  .  . 
- 4 .  x  .  o  .  .  .  .  . 
- 3 .  .  .  .  .  .  .  .  . 
- 2 .  .  .  .  .  .  .  .  . 
- 1 .  x  .  .  .  .  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player E7
-[2J
-print board
- 9 .  .  .  .  .  .  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 .  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  .  .  .  . 
- 4 .  x  .  o  .  .  .  .  . 
- 3 .  .  .  .  .  .  .  .  . 
- 2 .  .  .  .  .  .  .  .  . 
- 1 .  x  .  .  .  .  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player F9
-[2J
-print board
- 9 .  .  .  .  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 .  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  .  .  .  . 
- 4 .  x  .  o  .  .  .  .  . 
- 3 .  .  .  .  .  .  .  .  . 
- 2 .  .  .  .  .  .  .  .  . 
- 1 .  x  .  .  .  .  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player F5
-[2J
-print board
- 9 .  .  .  .  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 .  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  o  .  .  . 
- 4 .  x  .  o  .  .  .  .  . 
- 3 .  .  .  .  .  .  .  .  . 
- 2 .  .  .  .  .  .  .  .  . 
- 1 .  x  .  .  .  .  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player A9
-[2J
-print board
- 9 x  .  .  .  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 .  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  o  .  .  . 
- 4 .  x  .  o  .  .  .  .  . 
- 3 .  .  .  .  .  .  .  .  . 
- 2 .  .  .  .  .  .  .  .  . 
- 1 .  x  .  .  .  .  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player A7
-[2J
-print board
- 9 x  .  .  .  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  o  .  .  . 
- 4 .  x  .  o  .  .  .  .  . 
- 3 .  .  .  .  .  .  .  .  . 
- 2 .  .  .  .  .  .  .  .  . 
- 1 .  x  .  .  .  .  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player G4
-[2J
-print board
- 9 x  .  .  .  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  o  .  .  . 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  .  .  .  .  .  . 
- 2 .  .  .  .  .  .  .  .  . 
- 1 .  x  .  .  .  .  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player D3
-[2J
-print board
- 9 x  .  .  .  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  o  .  .  . 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  o  .  .  .  .  . 
- 2 .  .  .  .  .  .  .  .  . 
- 1 .  x  .  .  .  .  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player C2
-[2J
-print board
- 9 x  .  .  .  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  o  .  .  . 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  o  .  .  .  .  . 
- 2 .  .  x  .  .  .  .  .  . 
- 1 .  x  .  .  .  .  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player F1
-[2J
-print board
- 9 x  .  .  .  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  o  .  .  . 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  o  .  .  .  .  . 
- 2 .  .  x  .  .  .  .  .  . 
- 1 .  x  .  .  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player J5
-[2J
-print board
- 9 x  .  .  .  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  o  .  .  x 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  o  .  .  .  .  . 
- 2 .  .  x  .  .  .  .  .  . 
- 1 .  x  .  .  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player D1
-[2J
-print board
- 9 x  .  .  .  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  o  .  .  x 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  o  .  .  .  .  . 
- 2 .  .  x  .  .  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player E3
-[2J
-print board
- 9 x  .  .  .  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  .  . 
- 5 .  .  .  .  .  o  .  .  x 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  o  x  .  .  .  . 
- 2 .  .  x  .  .  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player H6
-[2J
-print board
- 9 x  .  .  .  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  .  .  .  .  o  .  .  x 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  o  x  .  .  .  . 
- 2 .  .  x  .  .  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player D9
-[2J
-print board
- 9 x  .  .  x  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  .  .  .  .  o  .  .  x 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  o  x  .  .  .  . 
- 2 .  .  x  .  .  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player E2
-[2J
-print board
- 9 x  .  .  x  .  x  .  .  . 
- 8 .  .  .  .  x  .  .  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  .  .  .  .  o  .  .  x 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  o  x  .  .  .  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player A8
-[2J
-print board
- 9 x  .  .  x  .  x  .  .  . 
- 8 x  .  .  .  x  .  .  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  .  .  .  .  o  .  .  x 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  o  x  .  .  .  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player G8
-[2J
-print board
- 9 x  .  .  x  .  x  .  .  . 
- 8 x  .  .  .  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  .  .  .  .  o  .  .  x 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  o  x  .  .  .  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player B5
-[2J
-print board
- 9 x  .  .  x  .  x  .  .  . 
- 8 x  .  .  .  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  x  .  .  .  o  .  .  x 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  o  x  .  .  .  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player C5
-[2J
-print board
- 9 x  .  .  x  .  x  .  .  . 
- 8 x  .  .  .  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  .  o  .  .  x  .  . 
- 3 .  .  .  o  x  .  .  .  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player F4
-[2J
-print board
- 9 x  .  .  x  .  x  .  .  . 
- 8 x  .  .  .  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  .  o  .  x  x  .  . 
- 3 .  .  .  o  x  .  .  .  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player C9
-[2J
-print board
- 9 x  .  o  x  .  x  .  .  . 
- 8 x  .  .  .  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  .  o  .  x  x  .  . 
- 3 .  .  .  o  x  .  .  .  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player E4
-[2J
-print board
- 9 x  .  o  x  .  x  .  .  . 
- 8 x  .  .  .  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  .  o  x  x  x  .  . 
- 3 .  .  .  o  x  .  .  .  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player D8
-[2J
-print board
- 9 x  .  o  x  .  x  .  .  . 
- 8 x  .  .  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  .  o  x  x  x  .  . 
- 3 .  .  .  o  x  .  .  .  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player H3
-[2J
-print board
- 9 x  .  o  x  .  x  .  .  . 
- 8 x  .  .  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  .  o  x  x  x  .  . 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  .  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player E1
-[2J
-print board
- 9 x  .  o  x  .  x  .  .  . 
- 8 x  .  .  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  .  o  x  x  x  .  . 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  o  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player E9
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  .  .  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  .  o  x  x  x  .  . 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  o  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player C4
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  .  .  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  o  o  x  x  x  .  . 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  o  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player C8
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  .  x  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  o  o  x  x  x  .  . 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  .  x  .  o  .  .  .  . 
- 1 .  x  .  o  o  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player B2
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  .  x  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  .  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  o  o  x  x  x  .  . 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  .  o  .  .  .  . 
- 1 .  x  .  o  o  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player G6
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  .  x  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  o  o  x  x  x  .  . 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  .  o  .  .  .  . 
- 1 .  x  .  o  o  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player H2
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  .  x  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  o  o  x  x  x  .  . 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  .  o  .  .  o  . 
- 1 .  x  .  o  o  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player J2
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  .  x  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  o  o  x  x  x  .  . 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  .  o  .  .  o  x 
- 1 .  x  .  o  o  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player J4
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  .  x  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  .  o  .  .  o  x 
- 1 .  x  .  o  o  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player D2
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  .  x  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 .  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  x  o  .  .  o  x 
- 1 .  x  .  o  o  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player A4
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  .  x  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  x  o  .  .  o  x 
- 1 .  x  .  o  o  o  o  .  . 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player J1
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  .  x  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  x  o  .  .  o  x 
- 1 .  x  .  o  o  o  o  .  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player C1
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  .  x  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  x  o  .  .  o  x 
- 1 .  x  o  o  o  o  o  .  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player B8
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  x  x  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  .  .  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  x  o  .  .  o  x 
- 1 .  x  o  o  o  o  o  .  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player D5
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  x  x  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  x  o  .  .  o  x 
- 1 .  x  o  o  o  o  o  .  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player E5
-[2J
-print board
- 9 x  .  o  x  x  x  .  .  . 
- 8 x  x  x  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  x  o  .  .  o  x 
- 1 .  x  o  o  o  o  o  .  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player B9
-[2J
-print board
- 9 .  o  o  x  x  x  .  .  . 
- 8 .  .  .  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  x  o  .  .  o  x 
- 1 .  x  o  o  o  o  o  .  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player G2
-[2J
-print board
- 9 .  o  o  x  x  x  .  .  . 
- 8 .  .  .  o  x  .  o  .  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  x  .  .  x  o  x 
- 1 .  x  .  .  .  .  .  .  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player H8
-[2J
-print board
- 9 .  o  o  x  x  x  .  .  . 
- 8 .  .  .  o  x  .  o  o  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  .  .  x  . 
- 2 .  o  x  x  .  .  x  o  x 
- 1 .  x  .  .  .  .  .  .  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player F3
-[2J
-print board
- 9 .  o  o  x  x  x  .  .  . 
- 8 .  .  .  o  x  .  o  o  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  x  .  x  . 
- 2 .  o  x  x  .  .  x  o  x 
- 1 .  x  .  .  .  .  .  .  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player H1
-[2J
-print board
- 9 .  o  o  x  x  x  .  .  . 
- 8 .  .  .  o  x  .  o  o  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  x  .  x  . 
- 2 .  o  x  x  .  .  x  o  x 
- 1 .  x  .  .  .  .  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player J3
-[2J
-print board
- 9 .  o  o  x  x  x  .  .  . 
- 8 .  .  .  o  x  .  o  o  . 
- 7 o  .  .  .  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  x  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 .  x  .  .  .  .  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player D7
-[2J
-print board
- 9 .  o  o  x  x  x  .  .  . 
- 8 .  .  .  o  x  .  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  x  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 .  x  .  .  .  .  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player A1
-[2J
-print board
- 9 .  o  o  x  x  x  .  .  . 
- 8 .  .  .  o  x  .  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  .  .  o  x  x  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  .  .  .  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player B3
-[2J
-print board
- 9 .  o  o  x  x  x  .  .  . 
- 8 .  .  .  o  x  .  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  o  .  o  x  x  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  .  .  .  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player G9
-[2J
-print board
- 9 .  o  o  x  x  x  x  .  . 
- 8 .  .  .  o  x  .  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  .  .  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  o  .  o  x  x  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  .  .  .  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player D6
-[2J
-print board
- 9 .  o  o  x  x  x  x  .  . 
- 8 .  .  .  o  x  .  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  o  .  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  o  .  o  x  x  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  .  .  .  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player E6
-[2J
-print board
- 9 .  o  o  x  x  x  x  .  . 
- 8 .  .  .  o  x  .  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  o  x  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  o  .  o  x  x  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  .  .  .  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player D1
-[2J
-print board
- 9 .  o  o  x  x  x  x  .  . 
- 8 .  .  .  o  x  .  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  o  x  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  o  .  o  x  x  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  .  .  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player J9
-[2J
-print board
- 9 .  o  o  x  x  x  x  .  x 
- 8 .  .  .  o  x  .  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  o  x  .  x  o  . 
- 5 .  x  o  o  x  o  .  .  x 
- 4 o  x  o  o  x  x  x  .  o 
- 3 .  o  .  o  x  x  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  .  .  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player F6
-[2J
-print board
- 9 .  o  o  x  x  x  x  .  x 
- 8 .  .  .  o  x  .  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  o  .  o  x  o  . 
- 5 .  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  .  .  .  .  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  .  .  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player F8
-[2J
-print board
- 9 .  o  o  x  x  x  x  .  x 
- 8 .  .  .  o  x  x  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  o  .  o  x  o  . 
- 5 .  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  .  .  .  .  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  .  .  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player E4
-[2J
-print board
- 9 .  o  o  x  x  x  x  .  x 
- 8 .  .  .  o  x  x  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  o  .  o  x  o  . 
- 5 .  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  o  .  .  .  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  .  .  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player F1
-[2J
-print board
- 9 .  o  o  x  x  x  x  .  x 
- 8 .  .  .  o  x  x  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  o  .  o  x  o  . 
- 5 .  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  o  .  .  .  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  .  x  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player J6
-[2J
-print board
- 9 .  o  o  x  x  x  x  .  x 
- 8 .  .  .  o  x  x  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  o  .  o  x  o  o 
- 5 .  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  o  .  .  .  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  .  x  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player A9
-[2J
-print board
- 9 x  .  .  x  x  x  x  .  x 
- 8 .  .  .  o  x  x  o  o  . 
- 7 o  .  .  o  o  .  .  .  . 
- 6 o  x  .  o  .  o  x  o  o 
- 5 .  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  o  .  .  .  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  .  x  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player H7
-[2J
-print board
- 9 x  .  .  x  x  x  x  .  x 
- 8 .  .  .  o  x  x  o  o  . 
- 7 o  .  .  o  o  .  .  o  . 
- 6 o  x  .  o  .  o  x  o  o 
- 5 .  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  o  .  .  .  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  .  x  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player E1
-[2J
-print board
- 9 x  .  .  x  x  x  x  .  x 
- 8 .  .  .  o  x  x  o  o  . 
- 7 o  .  .  o  o  .  .  o  . 
- 6 o  x  .  o  .  o  x  o  o 
- 5 .  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  o  .  .  .  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  x  x  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player B8
-[2J
-print board
- 9 x  .  .  x  x  x  x  .  x 
- 8 .  o  .  o  x  x  o  o  . 
- 7 o  .  .  o  o  .  .  o  . 
- 6 o  x  .  o  .  o  x  o  o 
- 5 .  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  o  .  .  .  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  x  x  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player A8
-[2J
-print board
- 9 x  .  .  x  x  x  x  .  x 
- 8 x  o  .  o  x  x  o  o  . 
- 7 .  .  .  o  o  .  .  o  . 
- 6 .  x  .  o  .  o  x  o  o 
- 5 .  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  o  .  .  .  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  x  x  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player H4
-[2J
-print board
- 9 x  .  .  x  x  x  x  .  x 
- 8 x  o  .  o  x  x  o  o  . 
- 7 .  .  .  o  o  .  .  o  . 
- 6 .  x  .  o  .  o  x  o  o 
- 5 .  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  o  .  .  o  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  x  x  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player A5
-[2J
-print board
- 9 x  .  .  x  x  x  x  .  x 
- 8 x  o  .  o  x  x  o  o  . 
- 7 .  .  .  o  o  .  .  o  . 
- 6 .  x  .  o  .  o  x  o  o 
- 5 x  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  o  .  .  o  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 .  o  x  x  .  .  x  o  x 
- 1 x  x  .  o  x  x  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player A2
-[2J
-print board
- 9 x  .  .  x  x  x  x  .  x 
- 8 x  o  .  o  x  x  o  o  . 
- 7 .  .  .  o  o  .  .  o  . 
- 6 .  x  .  o  .  o  x  o  o 
- 5 x  x  o  o  .  o  .  .  x 
- 4 o  x  o  o  o  .  .  o  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 o  o  x  x  .  .  x  o  x 
- 1 .  .  .  o  x  x  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-Black player G5
-[2J
-print board
- 9 x  .  .  x  x  x  x  .  x 
- 8 x  o  .  o  x  x  o  o  . 
- 7 .  .  .  o  o  .  .  o  . 
- 6 .  x  .  o  .  o  x  o  o 
- 5 x  x  o  o  .  o  x  .  x 
- 4 o  x  o  o  o  .  .  o  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 o  o  x  x  .  .  x  o  x 
- 1 .  .  .  o  x  x  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-white player H5
-[2J
-print board
- 9 x  .  .  x  x  x  x  .  x 
- 8 x  o  .  o  x  x  o  o  . 
- 7 .  .  .  o  o  .  .  o  . 
- 6 .  x  .  o  .  o  x  o  o 
- 5 x  x  o  o  .  o  x  o  . 
- 4 o  x  o  o  o  .  .  o  o 
- 3 .  o  .  o  .  .  .  x  x 
- 2 o  o  x  x  .  .  x  o  x 
- 1 .  .  .  o  x  x  .  o  x 
- 0 .  .  .  .  .  .  .  .  . 
-   A  B  C  D  E  F  G  H  J  
-next move
-program: include/dlgo/goboard_slow.h:67: void GoString::remove_liberty(Point&): Assertion `lcount >0' failed.
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 1 )point ( 1, 2 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 2 )point ( 1, 3 )point ( 1, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 3 )point ( 1, 4 )point ( 1, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 4 )point ( 1, 5 )point ( 1, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 5 )point ( 1, 6 )point ( 1, 4 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 6 )point ( 1, 5 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 8 )point ( 1, 9 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 2, 9 )point ( 1, 8 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 1 )point ( 2, 2 )point ( 1, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 2 )point ( 2, 3 )point ( 2, 1 )point ( 1, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 3 )point ( 2, 4 )point ( 2, 2 )point ( 1, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 4 )point ( 2, 5 )point ( 2, 3 )point ( 1, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 5 )point ( 2, 6 )point ( 2, 4 )point ( 1, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 6 )point ( 2, 7 )point ( 2, 5 )point ( 1, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 7 )point ( 2, 8 )point ( 2, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 8 )point ( 2, 9 )point ( 2, 7 )point ( 1, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 9 )point ( 2, 8 )point ( 1, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 1 )point ( 3, 2 )point ( 2, 1 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 3, 3 )point ( 3, 1 )point ( 2, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 3 )point ( 3, 4 )point ( 3, 2 )point ( 2, 3 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 4 )point ( 3, 5 )point ( 3, 3 )point ( 2, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 5 )point ( 3, 6 )point ( 3, 4 )point ( 2, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 6 )point ( 3, 7 )point ( 3, 5 )point ( 2, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 7 )point ( 3, 8 )point ( 3, 6 )point ( 2, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 8 )point ( 3, 9 )point ( 3, 7 )point ( 2, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 9 )point ( 3, 8 )point ( 2, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 1 )point ( 3, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 3 )point ( 4, 4 )point ( 3, 3 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 4 )point ( 4, 5 )point ( 4, 3 )point ( 3, 4 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 5 )point ( 4, 6 )point ( 4, 4 )point ( 3, 5 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 6 )point ( 4, 7 )point ( 4, 5 )point ( 3, 6 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 7 )point ( 4, 8 )point ( 4, 6 )point ( 3, 7 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 8 )point ( 4, 9 )point ( 4, 7 )point ( 3, 8 )
+lcount : 4
+tmplcount : 4
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 9 )point ( 4, 8 )point ( 3, 9 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 2 )point ( 4, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : white
+point ( 7, 1 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 5, 2 )point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 4
+GoString color : white
+point ( 2, 7 )point ( 1, 8 )point ( 1, 6 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 5, 3 )point ( 5, 1 )
+lcount : 2
+tmplcount : 2
+GoString color : black
+point ( 7, 2 )point ( 6, 3 )point ( 5, 2 )
+lcount : 3
+tmplcount : 3
+GoString color : black
+point ( 4, 3 )point ( 4, 1 )point ( 3, 2 )
+lcount : 4
+tmplcount : 3
+program: include/dlgo/goboard_slow.h:69: GoString::GoString(Color&, std::set<Point>*, std::set<Point>*, int): Assertion `tmplcount == lcount' failed.
+Error: signal 6:
+build/apps/program(_Z7handleri+0x2b)[0x555b88f0471d]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3ef20)[0x7f575fb4df20]
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0xc7)[0x7f575fb4de97]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0x141)[0x7f575fb4f801]
+/lib/x86_64-linux-gnu/libc.so.6(+0x3039a)[0x7f575fb3f39a]
+/lib/x86_64-linux-gnu/libc.so.6(+0x30412)[0x7f575fb3f412]
+build/apps/program(_ZN8GoStringC2ER5ColorPSt3setI5PointSt4lessIS3_ESaIS3_EES8_i+0x21c)[0x555b88f05282]
+build/apps/program(_ZN8GoString11merged_withEPS_S0_+0x204)[0x555b88f0581f]
+build/apps/program(_ZN5Board11place_stoneEP6PlayerR5Point+0x3bf)[0x555b88f06089]
+build/apps/program(_ZN9GameState20does_move_violate_koEP6PlayerP4Move+0x69)[0x555b88f06b87]

@@ -46,7 +46,7 @@ build:
 	@mkdir -p $(OBJ_DIR)
 
 
-debug: CXXFLAGS += -DDEBUG -g
+debug: CXXFLAGS += -DDEBUG -g -rdynamic 
 debug: all
 
 release: CXXFLAGS += -O3

@@ -55,6 +55,18 @@ public:
         this->stones = stones;
         this->liberties = liberties;
         this->lcount = lcount;
+
+        std::cout << "GoString color : " << ((color == Color::black)? "black" : "white") << std::endl;
+        int tmplcount = 0;
+        for (auto itr = liberties->begin(); itr != liberties->end(); itr++){
+            std::cout << "point ( " <<  itr->row << ", " << itr->col << " )";
+            tmplcount ++;
+            
+        }
+        std::cout << std::endl;
+        std::cout << "lcount : " << lcount << std::endl;
+        std::cout << "tmplcount : " << tmplcount << std::endl;
+        assert(tmplcount == lcount);
     }
 
     ~GoString (){
@@ -69,7 +81,7 @@ public:
         lcount --;
     }   
     void add_liberty(Point & point) {    
-	// std::cout << "add_liberty started. " << std::endl;
+        std::cout << "add_liberty started. " << std::endl;
         // std::cout << "liberties = " << liberties  << std::endl;
         if(liberties->find(point) == liberties->end()) {
 	    // std::cout << "add_liberty : point skipped " << std::endl;
@@ -78,7 +90,18 @@ public:
         liberties->insert(point);
         lcount++;
 	// std::cout << "add_liberty ended" << std::endl;
-    }   
+        int tmplcount = 0;
+        std::cout << "string color : " << ((color == Color::black)? "black" : "white") << std::endl;
+        for (auto itr = liberties->begin(); itr != liberties->end(); itr++){
+            std::cout << "point ( " <<  itr->row << ", " << itr->col << " ). ";
+            tmplcount ++;
+            
+        }
+        std::cout << std::endl;
+        std::cout << "lcount : " << lcount << std::endl;
+        assert(tmplcount == lcount);
+
+    }    
     int num_liberties() {    
         return lcount;
     }    
