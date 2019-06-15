@@ -56,17 +56,20 @@ public:
         this->liberties = liberties;
         this->lcount = lcount;
 
-        std::cout << "GoString color : " << ((color == Color::black)? "black" : "white") << std::endl;
         int tmplcount = 0;
         for (auto itr = liberties->begin(); itr != liberties->end(); itr++){
-            std::cout << "point ( " <<  itr->row << ", " << itr->col << " )";
+           // std::cout << "point ( " <<  itr->row << ", " << itr->col << " )";
             tmplcount ++;
             
         }
         std::cout << std::endl;
-        std::cout << "lcount : " << lcount << std::endl;
-        std::cout << "tmplcount : " << tmplcount << std::endl;
-        assert(tmplcount == lcount);
+       // assert(tmplcount == lcount);
+        if(tmplcount != lcount) {
+            std::cout << "error" << std::endl;
+            std::cout << "lcount : " << lcount << std::endl;
+            std::cout << "tmplcount : " << tmplcount << std::endl;
+            printliberties();
+        }
     }
 
     ~GoString (){
@@ -113,6 +116,9 @@ public:
     }
     static GoString * merged_with(GoString * go_string1, GoString * go_string2){
         assert(go_string1->color == go_string2->color);
+        std::cout << "Merging two string" << std::endl;
+        go_string1->printliberties();
+        go_string2->printliberties();
 
         std::set< Point > *us = go_string1->stones;
         us->insert(go_string2->stones->begin(), go_string2->stones->end());
@@ -120,6 +126,13 @@ public:
         std::set< Point > * ul;
         ul = go_string1->liberties;
         int cnt = go_string1->lcount;
+        for (auto itr = go_string1->liberties->begin(); itr != (go_string1->liberties)->end(); itr++){
+            if(us->find(*itr) != us->end()){
+                cnt--;
+                ul->erase(*itr);
+            }
+        }
+
         for (auto itr = go_string2->liberties->begin(); itr != (go_string2->liberties)->end(); itr++){
             if(ul->find(*itr) != ul->end()){
                 cnt++;
@@ -144,6 +157,16 @@ public:
     	GoString * gs =  new GoString(color, us, ul, lcount);
          
         return gs;
+    }
+
+    void printliberties(){
+        std::cout << "string color : " << ((color == Color::black)? "black" : "white") << ". liberities";
+        for (auto itr = liberties->begin(); itr != liberties->end(); itr++){
+            std::cout << "point ( " <<  itr->row << ", " << itr->col << " ). ";
+            
+        }
+        std::cout << std::endl;
+        std::cout << "lcount : " << lcount << std::endl;
     }
 };
 
@@ -170,7 +193,7 @@ public:
      }    
   
     void place_stone(Player * player, Point & point){   
-        // std::cout << "place_stone started." << std::endl; 
+        std::cout << "place_stone started. Point( " << point.row << "," << point.col << ")." << std::endl; 
         assert(is_on_grid(point));
         assert(_grid->find(point) == _grid->end());
          
@@ -226,8 +249,7 @@ public:
             if ( (*itr)->num_liberties() == 0) _remove_string(*itr); 
         }
         // std::cout << "place_stone ended." << std::endl; 
-
-    }    
+    }
 
     void  _remove_string(GoString * string) {
         // std::cout << "_remove_string started." << std::endl; 
