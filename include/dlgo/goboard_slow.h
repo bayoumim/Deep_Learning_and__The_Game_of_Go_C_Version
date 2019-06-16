@@ -64,13 +64,14 @@ public:
             tmplcount ++;
             
         }
-        std::cout << std::endl;
+      //  std::cout << std::endl;
        // assert(tmplcount == lcount);
         if(tmplcount != lcount) {
             std::cout << "error" << std::endl;
             std::cout << "lcount : " << lcount << std::endl;
             std::cout << "tmplcount : " << tmplcount << std::endl;
             printliberties();
+            exit(0);
         }
     }
 
@@ -145,7 +146,7 @@ public:
         }
 
         for (auto itr = go_string2->liberties->begin(); itr != (go_string2->liberties)->end(); itr++){
-            if(ul->find(*itr) != ul->end()){
+            if(ul->find(*itr) == ul->end()){
                 cnt++;
                 ul->insert(*itr);
                 if (verbose) std::cout << "liberity point (" << itr->row << "," << itr->col << ") add to liberty list. cnt : " << cnt << std::endl;
@@ -443,7 +444,7 @@ public:
         // std::cout << "1." << std::endl;
         Board * next_board = board->deepcopy();
         // std::cout << "2." << std::endl;
-        next_board->place_stone(player, move->point);
+        next_board->place_stone(player, move->point,false);
         // std::cout << "3." << std::endl;
         std::pair < Player * , Board* > * next_situation = new std::pair < Player * , Board* >(player->other(), next_board);
         // std::cout << "4." << std::endl;
