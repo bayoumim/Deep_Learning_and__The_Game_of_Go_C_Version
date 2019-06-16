@@ -18,6 +18,7 @@ public:
             for (int c = 1; c < game_state->board->num_cols + 1; c++) {
                 // std::cout << "c: " << c << std::endl;
                 Point *candidate = new Point(r, c);
+                if(game_state->board->_grid->find(*candidate) != game_state->board->_grid->end() ) continue; 
                 Move* p = Move::play(candidate);
                 if ( game_state->is_valid_move(p) && 
                         ! is_point_an_eye(game_state->board,
