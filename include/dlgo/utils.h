@@ -26,7 +26,7 @@ void print_move(Player * player, Move * move){
 
 void print_board(Board * board) {
  //   std::cout << "no. of rows : " << board->num_rows << std::endl;
-    for (int row = board->num_rows; row >= 0; row--){
+    for (int row = board->num_rows; row >= 1; row--){
       //  std::cout << board->num_cols ;
      //   std::cout << "row : "   << row << std::endl;
         std::string bump = row <= 9?  " " : "";
