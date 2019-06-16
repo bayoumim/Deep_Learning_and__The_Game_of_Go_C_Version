@@ -49,7 +49,7 @@ public:
         for(int i = 0; i < (int) candidates.size(); i++ ){
             delete candidates[i];
         }
-        return Move::play(choice, true);
+        return Move::play(choice, false);
     }
 
 

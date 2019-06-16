@@ -36,7 +36,7 @@ public:
     }    
         
     static Move* pass_turn(){ 
-        std::cout << "pass_turn : started";
+       // std::cout << "pass_turn : started";
         return new Move(true);
     }    
         
@@ -65,14 +65,14 @@ public:
             
         }
       //  std::cout << std::endl;
-       // assert(tmplcount == lcount);
-        if(tmplcount != lcount) {
+        assert(tmplcount == lcount);
+     /*   if(tmplcount != lcount) {
             std::cout << "error" << std::endl;
             std::cout << "lcount : " << lcount << std::endl;
             std::cout << "tmplcount : " << tmplcount << std::endl;
             printliberties();
             exit(0);
-        }
+        }*/
     }
 
     ~GoString (){
@@ -83,28 +83,36 @@ public:
     }   
     void remove_liberty(Point & point) {  
         assert(lcount >0);  
+        if(liberties->find(point) == liberties->end()){
+            std::cout << "remove_liberty: error, try to remove point not in liberity: P( " << point.row << "," << point.col << ") . String is : " << this << std::endl;
+        }
+        assert(liberties->find(point) != liberties->end());
         liberties->erase(point);
         lcount --;
     }   
     void add_liberty(Point & point) {    
-        std::cout << "add_liberty started. " << std::endl;
+        //std::cout << "add_liberty started. " << std::endl;
         // std::cout << "liberties = " << liberties  << std::endl;
-        if(liberties->find(point) == liberties->end()) {
+
+    /*    if(liberties->find(point) == liberties->end()) {
 	    // std::cout << "add_liberty : point skipped " << std::endl;
             return;
+        }*/
+
+        if(liberties->find(point) == liberties->end()){
+            liberties->insert(point);
+            lcount++;
         }
-        liberties->insert(point);
-        lcount++;
 	// std::cout << "add_liberty ended" << std::endl;
         int tmplcount = 0;
-        std::cout << "string color : " << ((color == Color::black)? "black" : "white") << std::endl;
+     //   std::cout << "string color : " << ((color == Color::black)? "black" : "white") << std::endl;
         for (auto itr = liberties->begin(); itr != liberties->end(); itr++){
-            std::cout << "point ( " <<  itr->row << ", " << itr->col << " ). ";
+       //     std::cout << "point ( " <<  itr->row << ", " << itr->col << " ). ";
             tmplcount ++;
             
         }
-        std::cout << std::endl;
-        std::cout << "lcount : " << lcount << std::endl;
+    //    std::cout << std::endl;
+     //   std::cout << "lcount : " << lcount << std::endl;
         assert(tmplcount == lcount);
 
     }    
@@ -255,7 +263,13 @@ public:
                 if (verbose) std::cout << "a stone is in the neighbor point..." << std::endl; 
 
                 neighbor_string = (itr -> second);
-                
+
+                if(neighbor_string->liberties->find(point) == neighbor_string->liberties->end()){
+	            std::cout << "remove_liberty: error, try to remove point not in liberity: P( " << point.row << "," << point.col << " ) . String is : " << neighbor_string << std::endl;
+	        }
+
+                assert( neighbor_string->liberties->find(point) != neighbor_string->liberties->end());
+
                 if(neighbor_string->color == player->color)  {
                     if (verbose) std::cout << "neighbor stone is the same color, store in the adjacent_same_color..." << std::endl; 
                     adjacent_same_color.insert(neighbor_string);
@@ -295,6 +309,8 @@ public:
             if ( (*itr)->num_liberties() == 0) _remove_string(*itr); 
         }
         // std::cout << "place_stone ended." << std::endl; 
+
+      //  VerifyStrings();
     }
 
     void  _remove_string(GoString * string) {
@@ -339,12 +355,17 @@ public:
     Board * deepcopy(){
         std::map< Point, GoString * > * next_grid = new std::map< Point, GoString * > ();
         for(auto itr = _grid->begin(); itr != _grid->end(); itr++) {
-            GoString * gs = itr->second->deepcopy();
-            (*next_grid)[ itr->first ] = gs;
+            if(next_grid->find(itr->first) == next_grid->end()){
+                GoString * gs = itr->second->deepcopy();
+               // (*next_grid)[ itr->first ] = gs;
+                for(auto itr2 = gs->stones->begin(); itr2 != gs->stones->end(); itr2++) {
+                    (*next_grid)[ *itr2 ] = gs;
+                }
+            }
         }
 
         Board * next_board = new Board(num_rows, num_cols);
-        next_board->add_grid( next_grid);
+        next_board->add_grid(next_grid);
         
         return next_board;
     }
@@ -369,6 +390,41 @@ public:
    //     std::cout << "return color"<< std::endl;
         return itr->second->color;
     }
+
+    void printStrings(){
+        std::cout << "Printing Strings ..." << std::endl;
+        for(auto itr = _grid->begin(); itr != _grid->end(); itr++) {
+            std::cout << "Point (" << itr->first.row << "," << itr->first.col << ")" << " belongs to string " << itr->second << std::endl;
+            itr->second->printliberties();
+            itr->second->printstones ();
+
+        }
+
+
+    }
+
+    void VerifyStrings(){
+        for(auto itr = _grid->begin(); itr != _grid->end(); itr++) {
+            Point p = itr->first;
+            GoString * gs = itr->second;
+            assert(gs->stones->find(p) != gs->stones->end());
+
+            for(auto itr2 = gs->stones->begin(); itr2 != gs->stones->end(); itr2++) {
+                auto itr3 = _grid->find(*itr2);
+                assert( itr3 != _grid->end());
+                assert( itr3->second == gs);
+                
+            }
+
+            for(auto itr2 = gs->liberties->begin(); itr2 != gs->liberties->end(); itr2++) {
+                auto itr3 = _grid->find(*itr2);
+                assert( itr3 == _grid->end());
+                
+            }
+
+        }
+    }
+
 };
 
 
@@ -396,7 +452,8 @@ public:
         Board * next_board;
         if(move->is_play ) {
             next_board = board->deepcopy();
-            next_board->place_stone(next_player, move->point, true);
+         //   next_board->printStrings();
+            next_board->place_stone(next_player, move->point, false);
         }
         else
             next_board = board;
@@ -480,6 +537,16 @@ public:
             ! does_move_violate_ko(next_player, move));
     }
 
+    void printStrings(){
+        std::cout << "Printing Strings ..." << std::endl;
+        for(auto itr = board->_grid->begin(); itr != board->_grid->end(); itr++) {
+            std::cout << "Point (" << itr->first.row << "," << itr->first.col << ")" << " belongs to string " << itr->second << std::endl;
+            itr->second->printliberties();
+            itr->second->printstones ();
 
+        }
+
+
+    }
 };
 #endif
