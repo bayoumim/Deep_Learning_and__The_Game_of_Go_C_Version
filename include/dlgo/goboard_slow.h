@@ -30,11 +30,13 @@ public:
         this->is_play = false;
     }
         
-    static Move* play(Point * point){ 
+    static Move* play(Point * point, bool verbose = false){ 
+        if(verbose) std::cout << "Move is selected at point (" << point->row << "," << point->col << ")." << std::endl;
         return new Move(point);
     }    
         
     static Move* pass_turn(){ 
+        std::cout << "pass_turn : started";
         return new Move(true);
     }    
         
@@ -114,13 +116,21 @@ public:
                *(this->stones) == *(rhs.stones) && 
                *(this->liberties) == *(rhs.liberties);
     }
-    static GoString * merged_with(GoString * go_string1, GoString * go_string2){
+    static GoString * merged_with(GoString * go_string1, GoString * go_string2, bool verbose = false){
         assert(go_string1->color == go_string2->color);
-        std::cout << "Merging two string" << std::endl;
-        go_string1->printliberties();
-        go_string2->printliberties();
+        if (verbose) std::cout << "Merging two string" << std::endl;
 
-        std::set< Point > *us = go_string1->stones;
+        if (verbose) {
+            std::cout << "Printing two string liberities...." << std::endl;
+            go_string1->printliberties();
+            go_string2->printliberties();
+            std::cout << "Printing two string stones...." << std::endl;
+            go_string1->printstones();
+            go_string2->printstones();
+        }
+
+        std::set< Point > *us = new std::set< Point >();
+        us->insert(go_string1->stones->begin(), go_string1->stones->end());
         us->insert(go_string2->stones->begin(), go_string2->stones->end());
         
         std::set< Point > * ul;
@@ -130,6 +140,7 @@ public:
             if(us->find(*itr) != us->end()){
                 cnt--;
                 ul->erase(*itr);
+                if (verbose) std::cout << "liberity point (" << itr->row << "," << itr->col << ") in string 1 is in new stone set. Point will not be added. cnt : " << cnt << std::endl;
             }
         }
 
@@ -137,10 +148,12 @@ public:
             if(ul->find(*itr) != ul->end()){
                 cnt++;
                 ul->insert(*itr);
+                if (verbose) std::cout << "liberity point (" << itr->row << "," << itr->col << ") add to liberty list. cnt : " << cnt << std::endl;
             }
             if(us->find(*itr) != us->end()){
                 cnt--;
                 ul->erase(*itr);
+                if (verbose) std::cout << "liberity point (" << itr->row << "," << itr->col << ") in string 2 is in new stone set. Point will not be added. cnt : " << cnt << std::endl;
             }
         }
 
@@ -152,8 +165,19 @@ public:
 
         std::set< Point > * us = new std::set< Point > ();
         std::set< Point > * ul = new std::set< Point >  ();
-        *us = *stones;
-        *ul = *liberties;
+
+        for (auto itr = stones->begin(); itr != stones->end(); itr++){
+            Point * p = new Point(*itr);
+            us->insert(p);
+        }
+
+        for (auto itr = liberties->begin(); itr != liberties->end(); itr++){
+            Point * p = new Point(*itr);
+            ul->insert(p);
+        }
+
+        //us->insert() *us = *stones;
+    //    *ul = *liberties;
     	GoString * gs =  new GoString(color, us, ul, lcount);
          
         return gs;
@@ -168,6 +192,15 @@ public:
         std::cout << std::endl;
         std::cout << "lcount : " << lcount << std::endl;
     }
+    void printstones(){
+        std::cout << "string color : " << ((color == Color::black)? "black" : "white") << ". stones .. ";
+        for (auto itr = stones->begin(); itr != stones->end(); itr++){
+            std::cout << "point ( " <<  itr->row << ", " << itr->col << " ). ";
+            
+        }
+        std::cout << std::endl;
+    }
+
 };
 
 class Board{
@@ -192,8 +225,9 @@ public:
          delete _grid;
      }    
   
-    void place_stone(Player * player, Point & point){   
-        std::cout << "place_stone started. Point( " << point.row << "," << point.col << ")." << std::endl; 
+    void place_stone(Player * player, Point & point, bool verbose = false){   
+        if (verbose) std::cout << "place_stone started. Point( " << point.row << "," << point.col << ")." << std::endl; 
+
         assert(is_on_grid(point));
         assert(_grid->find(point) == _grid->end());
          
@@ -205,26 +239,36 @@ public:
 
         // std::cout << "place_stone: for loop." << std::endl; 
         Point * nl = point.neighbors();
+        if (verbose) std::cout << "place_stone : get neighbors" << std::endl; 
         for(int i = 0; i < 4; i++){
             Point neighbor = nl[i];
-
-            if (!is_on_grid(neighbor)) continue;
-            
+            if (verbose) std::cout << "neighbor no. " << i << ". Point( " << neighbor.row << "," << neighbor.col << ")." << std::endl; 
+            if (!is_on_grid(neighbor)){
+                if (verbose) std::cout << "Not in the grid, skipped!" << std::endl; 
+                continue;
+            }
             auto itr = _grid->find(neighbor);
             GoString * neighbor_string = NULL; 
 
             if(itr != _grid->end()) {
+                if (verbose) std::cout << "a stone is in the neighbor point..." << std::endl; 
+
                 neighbor_string = (itr -> second);
                 
-                if(neighbor_string->color == player->color) 
+                if(neighbor_string->color == player->color)  {
+                    if (verbose) std::cout << "neighbor stone is the same color, store in the adjacent_same_color..." << std::endl; 
                     adjacent_same_color.insert(neighbor_string);
-                else
+                }
+                else {
+                    if (verbose) std::cout << "neighbor stone is different color, store in the adjacent_opposite_color..." << std::endl; 
                     adjacent_opposite_color.insert(neighbor_string);
+                }
             }
             else { 
                 liberties->insert(neighbor);
                 ucount++;
-            }
+                if (verbose) std::cout << "neighbor is empty, add to liberties list. ucount : " << ucount << std::endl; 
+           }
         }
         delete nl;
 
@@ -233,9 +277,10 @@ public:
         GoString *new_string = new GoString(player->color, s, liberties,ucount);
         
         // std::cout << "place_stone: for loop 2." << std::endl; 
-        for(auto itr = adjacent_same_color.begin(); itr != adjacent_same_color.end(); itr++)
-            new_string = GoString::merged_with(*itr, new_string );
-
+        if (verbose && adjacent_same_color.begin() != adjacent_same_color.end()) std::cout << "Call Merge with function..." << std::endl; 
+        for(auto itr = adjacent_same_color.begin(); itr != adjacent_same_color.end(); itr++) {
+            new_string = GoString::merged_with(*itr, new_string, verbose );
+        }
         // std::cout << "place_stone: for loop 3." << std::endl; 
         for(auto itr = new_string->stones->begin(); itr != new_string->stones->end(); itr++)
             (*_grid)[ *itr ] = new_string; 
@@ -350,7 +395,7 @@ public:
         Board * next_board;
         if(move->is_play ) {
             next_board = board->deepcopy();
-            next_board->place_stone(next_player, move->point);
+            next_board->place_stone(next_player, move->point, true);
         }
         else
             next_board = board;

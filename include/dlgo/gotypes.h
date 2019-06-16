@@ -39,6 +39,9 @@ public:
     Point(int row, int col){
         setCoord(row, col);
     }
+    Point(Point * point){
+        setCoord(point->row, point->col);
+    }
 
 
     bool isNone(){

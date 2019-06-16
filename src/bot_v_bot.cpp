@@ -34,8 +34,8 @@ int main(){
     RandomBot bots [3] ;
     while(!game->is_over()) {
         std::this_thread::sleep_for (std::chrono::milliseconds(300));
-        char c = 27;
-        std::cout << c << "[2J" << std::endl;
+     //   char c = 27;
+     //   std::cout << c << "[2J" << std::endl;
         std::cout << "print board" << std::endl;
         print_board(game->board);
         std::cout << "next move" << std::endl;
