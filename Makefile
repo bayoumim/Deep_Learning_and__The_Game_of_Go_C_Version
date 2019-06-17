@@ -22,7 +22,6 @@ APP_DIR  := $(BUILD)/apps
 TARGET   := program
 INCLUDE  := -Iinclude/ -Iinclude/dlgo/ -Iinclude/dlgo/agent/
 SRC      :=                      \
-   $(wildcard src/module1/*.cpp) \
    $(wildcard src/module2/*.cpp) \
    $(wildcard src/module3/*.cpp) \
    $(wildcard src/*.cpp)         \
