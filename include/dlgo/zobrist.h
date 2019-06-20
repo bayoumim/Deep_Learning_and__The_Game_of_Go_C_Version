@@ -1,7 +1,7 @@
 #include <map> 
 #include "gotypes.h" 
 
-const std::map<Point , std::map<Color, unsigned long long int> >  HASH_CODE = {{ { 1 , 1 } , {{Color::black,606610977102444280},{Color::white,7068641224577739721}} },
+std::map<Point , std::map<Color, unsigned long long int> >  HASH_CODE = {{ { 1 , 1 } , {{Color::black,606610977102444280},{Color::white,7068641224577739721}} },
 { { 1 , 2 } , {{Color::black,3130710918123035464},{Color::white,8443837270874830543}} },
 { { 1 , 3 } , {{Color::black,2442810971443284618},{Color::white,1768192591358509605}} },
 { { 1 , 4 } , {{Color::black,7778866119960641552},{Color::white,5035799209394608901}} },

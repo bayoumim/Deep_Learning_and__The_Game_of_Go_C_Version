@@ -1,5 +1,5 @@
-#ifndef _GOBOARD_SLOW_H
-#define _GOBOARD_SLOW_H
+#ifndef _GOBOARD_H
+#define _GOBOARD_H
 #include "gotypes.h"
 #include <cassert>
 #include <set>
@@ -8,7 +8,7 @@
 #include <algorithm>
 #include <iostream>
 #include "zobrist.h"
-#include<utility>
+#include <utility>
 
 class Move {
 public:
@@ -205,7 +205,7 @@ public:
         new_liberties->insert(point);
         std::set< Point > *  new_stones = Poinsdeepcopy(stones);
         int nc  = lcount++;
-        return GoString(color, stones, new_liberties)
+        return new GoString(color, new_stones, new_liberties,nc);
     }
 
 };
@@ -305,7 +305,7 @@ public:
         // std::cout << "place_stone: for loop 4." << std::endl; 
         for(auto itr = adjacent_opposite_color.begin(); itr != adjacent_opposite_color.end(); itr++) {
             GoString * other_color_string = *itr;
-            GoString * replacement = other_color_string->without_liberty(point)
+            GoString * replacement = other_color_string->without_liberty(point);
             if (replacement->num_liberties() > 0 )
                 _replace_string(replacement);
             else{
@@ -332,7 +332,7 @@ public:
                 // std::cout << "if statement. neighbor row : " << neighbor.row << " . col : " << neighbor.col << std::endl;
                 if(neighbor_string != string) {
                     // std::cout << "_remove_string :: neighbor_string: " << neighbor_string << std::endl;
-                    _replace_string(neighbor_string.with_liberty(point));
+                    _replace_string(neighbor_string->with_liberty(point));
                 }
             }
             // std::cout << "_remove_string : delete nl." << std::endl; 
@@ -434,8 +434,8 @@ public:
         GoString * old_string;
         for (auto itr = new_string->stones->begin(); itr != new_string->stones->end(); itr++) {
            Point point = *(itr); 
-           old_string =  _grid[point];
-            _grid[point] = new_string;
+           old_string =  (*_grid)[point];
+            (*_grid)[point] = new_string;
         }
         delete old_string;
     }
@@ -451,7 +451,7 @@ class GameState {
 public:
     Board * board;
     Player * next_player;
-    GameState previous_state;
+    GameState * previous_state;
     std::set< std::pair<Color, unsigned long long int> > previous_states;
     Move* last_move;
 
@@ -460,10 +460,12 @@ public:
         this->next_player = next_player;
         this->previous_state = previous;
 
-        if (previous_state ==NULL)
-            self.previous_states = frozenset()
+        if (previous_state ==NULL) {
+           // do nothing
+           ; 
+        }
         else {
-            previous_states->insert(std::make_pair(next_player->color,board.zobrist_hash()));
+            previous_states.insert(std::make_pair(next_player->color,board->zobrist_hash()));
         }
         this->last_move = move;
     }
@@ -529,12 +531,11 @@ public:
         // std::cout << "2." << std::endl;
         next_board->place_stone(player, move->point,false);
         // std::cout << "3." << std::endl;
-        std::pair < Player * , unsigned long long int > * next_situation = new std::pair < Player * , Board* >(player->other(), next_board);
+        std::pair < Color , unsigned long long int >  next_situation =  std::make_pair(player->other()->color, next_board->zobrist_hash() );
 
         // std::cout << "while loop started." << std::endl;
         bool flag = previous_states.find(next_situation) != previous_states.end();
-        delete next_situation;
-        return flag
+        return flag;
     }
 
     bool is_valid_move(Move * move){
