@@ -1,6 +1,6 @@
 #ifndef _naive_H
 #define _naive_H
-#include "goboard_slow.h"
+#include "goboard.h"
 #include <vector>
 #include "helpers.h"
 #include <stdlib.h>

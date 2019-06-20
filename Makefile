@@ -14,7 +14,7 @@
 #
 
 CXX      := -g++
-CXXFLAGS := -pedantic-errors -Wall -Wextra -Werror
+CXXFLAGS := -pedantic-errors -Wall -Wextra -Werror -std=c++0x
 LDFLAGS  := -L/usr/lib -lstdc++ -lm
 BUILD    := ./build
 OBJ_DIR  := $(BUILD)/objects
@@ -22,9 +22,10 @@ APP_DIR  := $(BUILD)/apps
 TARGET   := program
 INCLUDE  := -Iinclude/ -Iinclude/dlgo/ -Iinclude/dlgo/agent/
 SRC      :=                      \
-   $(wildcard src/module2/*.cpp) \
-   $(wildcard src/module3/*.cpp) \
    $(wildcard src/*.cpp)         \
+  # $(wildcard src/module1/*.cpp) \
+  # $(wildcard src/module2/*.cpp) \
+  # $(wildcard src/module3/*.cpp) \
 
 OBJECTS := $(SRC:%.cpp=$(OBJ_DIR)/%.o)
 
@@ -38,7 +39,7 @@ $(APP_DIR)/$(TARGET): $(OBJECTS)
 	@mkdir -p $(@D)
 	$(CXX) $(CXXFLAGS) $(INCLUDE) $(LDFLAGS) -o $(APP_DIR)/$(TARGET) $(OBJECTS)
 
-.PHONY: all build clean debug release
+.PHONY: all build clean debug release gz
 
 build:
 	@mkdir -p $(APP_DIR)
@@ -50,6 +51,14 @@ debug: all
 
 release: CXXFLAGS += -O3
 release: all
+
+#gz: TARGET   := gen_zob
+#gz: 
+#SRC      :=                      \
+#   $(wildcard src/module1/*.cpp) \
+
+#gz: OBJECTS := $(SRC:%.cpp=$(OBJ_DIR)/%.o)
+#gz: all
 
 clean:
 	-@rm -rvf $(OBJ_DIR)/*
