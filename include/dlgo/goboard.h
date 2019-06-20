@@ -67,14 +67,14 @@ public:
             
         }
       //  std::cout << std::endl;
-        assert(tmplcount == lcount);
-     /*   if(tmplcount != lcount) {
+       // assert(tmplcount == lcount);
+        if(tmplcount != lcount) {
             std::cout << "error" << std::endl;
             std::cout << "lcount : " << lcount << std::endl;
             std::cout << "tmplcount : " << tmplcount << std::endl;
             printliberties();
-            exit(0);
-        }*/
+            assert(tmplcount == lcount);
+        }
     }
 
     ~GoString (){
@@ -193,9 +193,15 @@ public:
     GoString * without_liberty(Point & point){ 
         assert(liberties->find(point) != liberties->end());
         std::set< Point > *  new_liberties = Poinsdeepcopy(liberties);
+        assert(new_liberties->find(point) != new_liberties->end());
         new_liberties->erase(point);
+
+        assert(new_liberties->find(point) == new_liberties->end());
         std::set< Point > *  new_stones = Poinsdeepcopy(stones);
-        int nc  = lcount--;
+
+        int nc  = lcount;
+        nc --;
+
         return new GoString(color, new_stones, new_liberties, nc);
     }
 
@@ -204,7 +210,8 @@ public:
         std::set< Point > *  new_liberties = Poinsdeepcopy(liberties);
         new_liberties->insert(point);
         std::set< Point > *  new_stones = Poinsdeepcopy(stones);
-        int nc  = lcount++;
+        int nc  = lcount;
+        nc ++;
         return new GoString(color, new_stones, new_liberties,nc);
     }
 
@@ -284,7 +291,7 @@ public:
                 if (verbose) std::cout << "neighbor is empty, add to liberties list. ucount : " << ucount << std::endl; 
            }
         }
-        delete nl;
+        delete [] nl;
 
         std::set<Point> * s = new std::set<Point>();
         s->insert(point);
@@ -307,18 +314,19 @@ public:
             GoString * other_color_string = *itr;
             GoString * replacement = other_color_string->without_liberty(point);
             if (replacement->num_liberties() > 0 )
-                _replace_string(replacement);
+                _replace_string(other_color_string, replacement);
             else{
                 _remove_string(other_color_string);
                 delete replacement;
             }
         }
-
-      //  VerifyStrings();
+        assert(_grid->find(point) != _grid->end());
+        VerifyStrings();
     }
 
     void  _remove_string(GoString * string) {
         // std::cout << "_remove_string started." << std::endl; 
+        std::set< GoString* > processedNeighbor;
         for(auto itr = string->stones->begin(); itr != string->stones->end(); itr++) {
             Point point = *itr; 
             Point * nl = point.neighbors();
@@ -329,15 +337,18 @@ public:
                 // std::cout << "get string " << std::endl;
                 if(_grid->find(neighbor) == _grid->end() ) continue;
                 GoString * neighbor_string = (*_grid)[neighbor];
+                if(processedNeighbor.find(neighbor_string) != processedNeighbor.end()) continue;
                 // std::cout << "if statement. neighbor row : " << neighbor.row << " . col : " << neighbor.col << std::endl;
                 if(neighbor_string != string) {
                     // std::cout << "_remove_string :: neighbor_string: " << neighbor_string << std::endl;
-                    _replace_string(neighbor_string->with_liberty(point));
+                    GoString * newString = neighbor_string->with_liberty(point);
+                    processedNeighbor.insert(newString);
+                    _replace_string(neighbor_string,newString);
                 }
             }
             // std::cout << "_remove_string : delete nl." << std::endl; 
             _hash ^= HASH_CODE[point][string->color];
-            delete nl;
+            delete [] nl;
             // // std::cout << "_remove_string : erase point." << std::endl; 
          //   _grid->erase(point);
         }
@@ -346,7 +357,6 @@ public:
             Point point = *itr; 
             _grid->erase(point);
         }
-
         // std::cout << "_remove_string ended." << std::endl; 
     }
 
@@ -413,6 +423,7 @@ public:
             Point p = itr->first;
             GoString * gs = itr->second;
             assert(gs->stones->find(p) != gs->stones->end());
+          //  assert(p.row )
 
             for(auto itr2 = gs->stones->begin(); itr2 != gs->stones->end(); itr2++) {
                 auto itr3 = _grid->find(*itr2);
@@ -426,16 +437,45 @@ public:
                 assert( itr3 == _grid->end());
                 
             }
+            
+            for(auto itr2 = gs->stones->begin(); itr2 != gs->stones->end(); itr2++) {
+                Point point = * itr2;
+                Point * nl = point.neighbors();
+
+                for(int i = 0; i < 4; i++){
+                    Point neighbor = nl[i];
+                    if (!is_on_grid(neighbor)) continue;
+                  //  if ( _grid->find(neighbor) == _grid->end() ) continue;
+                    bool inStones = gs->stones->find(neighbor) != gs->stones->end();
+                    bool inliberities = gs->liberties->find(neighbor) != gs->liberties->end();
+                    bool ingrid =  _grid->find(neighbor) != _grid->end();
+                    bool sameColor = false;
+                    if(ingrid) {
+                         sameColor = _grid->find(neighbor)->second->color == gs->color;
+                    } 
+                    assert( (inStones && !inliberities && ingrid && sameColor) || (inliberities && !ingrid) || (ingrid && !sameColor) );
+                }
+                delete [] nl;
+            }
 
         }
     }
 
-    void _replace_string(GoString * new_string){
-        GoString * old_string;
+    void _replace_string(GoString * old_string, GoString * new_string){
+       // GoString * old_string;
+
+        for (auto itr = old_string->stones->begin(); itr != old_string->stones->end(); itr++) {
+           Point point = *(itr); 
+           auto itr2 = _grid->find(point);
+           assert( itr2->second == old_string);
+           assert( itr2 != _grid->end());
+            _grid->erase(point);
+        }
+
         for (auto itr = new_string->stones->begin(); itr != new_string->stones->end(); itr++) {
            Point point = *(itr); 
-           old_string =  (*_grid)[point];
-            (*_grid)[point] = new_string;
+           assert(_grid->find(point) == _grid->end());
+           (*_grid)[point] = new_string;
         }
         delete old_string;
     }
@@ -480,6 +520,7 @@ public:
         Board * next_board;
         if(move->is_play ) {
             next_board = board->deepcopy();
+            next_board->VerifyStrings();
          //   next_board->printStrings();
             next_board->place_stone(next_player, move->point, false);
         }
@@ -529,7 +570,9 @@ public:
         // std::cout << "1." << std::endl;
         Board * next_board = board->deepcopy();
         // std::cout << "2." << std::endl;
+        next_board->VerifyStrings();
         next_board->place_stone(player, move->point,false);
+
         // std::cout << "3." << std::endl;
         std::pair < Color , unsigned long long int >  next_situation =  std::make_pair(player->other()->color, next_board->zobrist_hash() );
 
@@ -559,8 +602,6 @@ public:
             itr->second->printstones ();
 
         }
-
-
     }
 };
 #endif
