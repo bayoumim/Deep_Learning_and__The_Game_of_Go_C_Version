@@ -22,8 +22,8 @@ int main(){
         Move *bot_move = bots[(int)game->next_player->color].select_move(game);
         print_move(game->next_player, bot_move);
         game = game->apply_move(bot_move);
-      //  game->printStrings();
-        game->board->VerifyStrings();
+       // game->printStrings();
+     //   game->board->VerifyStrings();
         
         delete bot_move;
     }
