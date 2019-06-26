@@ -5,10 +5,10 @@
 #include <map>
 #include <algorithm>
 #include <iostream>
-#include "zobrist.h"
 #include <utility>
 #include "goboard.h"
 #include "scoring.h"
+#include "zobrist.h"
 
   //  Move::Move(Point * point = NULL, bool is_pass = false, bool is_resign = false){
     Move::Move(Point * point , bool is_pass , bool is_resign){
