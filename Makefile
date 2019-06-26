@@ -20,7 +20,7 @@ BUILD    := ./build
 OBJ_DIR  := $(BUILD)/objects
 APP_DIR  := $(BUILD)/apps
 TARGET   := program
-INCLUDE  := -Iinclude/ -Iinclude/dlgo/ -Iinclude/dlgo/agent/
+INCLUDE  := -Iinclude/ -Iinclude/dlgo/ -Iinclude/dlgo/agent/ -Iinclude/dlgo/minmax
 SRC      :=                      \
    $(wildcard src/*.cpp)         \
   # $(wildcard src/module1/*.cpp) \

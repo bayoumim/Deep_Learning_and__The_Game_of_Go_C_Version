@@ -23,6 +23,7 @@ make debug
 To access code for each chapter select its corresponding branch. Right now, implemented chapters are
 
 1 - Chapter 3
+
 2 - Chapter 4
 
 # Disclaimer

@@ -1,3 +1,5 @@
+#ifndef _ZOBRIST_H
+#define _ZOBRIST_H
 #include <map> 
 #include "gotypes.h" 
 
@@ -364,3 +366,5 @@ std::map<Point , std::map<Color, unsigned long long int> >  HASH_CODE = {{ { 1 ,
 { { 19 , 19 } , {{Color::black,146005817745350023},{Color::white,5519686587256867453}} }};
 
 unsigned long long int EMPTY_BOARD = 2816497798025261921;
+
+#endif
