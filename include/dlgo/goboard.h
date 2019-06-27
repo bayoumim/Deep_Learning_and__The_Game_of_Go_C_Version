@@ -34,7 +34,10 @@ public:
     static Move* resign(){ 
         return new Move(false,true);
     }    
-        
+    
+    void print(){
+        std::cout << "is_play: " << is_play << ". is_resign: " << is_resign << ". is_pass: " << is_pass << ". Point(" << point.row << "," << point.col << ")" << std::endl;
+    }    
 };
 
 

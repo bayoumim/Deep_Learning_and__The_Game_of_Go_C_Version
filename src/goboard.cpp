@@ -85,12 +85,18 @@
 
         stones->insert(go_string2->stones->begin(), go_string2->stones->end());
         
+        std::vector<Point> removedlibs;
         for (auto itr = this->liberties->begin(); itr != (this->liberties)->end(); itr++){
             if(stones->find(*itr) != stones->end()){
-                lcount--;
-                liberties->erase(*itr);
-                if (verbose) std::cout << "liberity point (" << itr->row << "," << itr->col << ") in string 1 is in new stone set. Point will not be added. lcount : " << lcount << std::endl;
+                removedlibs.push_back(*itr);
             }
+        }
+
+        for (unsigned int i = 0; i <  removedlibs.size(); i++){
+            assert(stones->find(removedlibs[i]) != stones->end());
+            lcount--;
+            liberties->erase(removedlibs[i]);
+            if (verbose) std::cout << "liberity point (" << removedlibs[i].row << "," << removedlibs[i].col << ") in string 1 is in new stone set. Point will not be added. lcount : " << lcount << std::endl;
         }
 
         for (auto itr = go_string2->liberties->begin(); itr != (go_string2->liberties)->end(); itr++){
@@ -230,7 +236,7 @@
                 if (verbose) std::cout << "neighbor is empty, add to liberties list. ucount : " << ucount << std::endl; 
            }
         }
-        delete [] nl;
+        free(nl);
 
         std::set<Point> * s = new std::set<Point>();
         s->insert(point);
@@ -317,7 +323,7 @@
             }
         //    std::cout << "_remove_string : delete nl." << std::endl; 
             _hash ^= HASH_CODE[point][string->color];
-            delete [] nl;
+            free(nl);
         }
 
         for(auto itr = string->stones->begin(); itr != string->stones->end(); itr++) {
@@ -429,7 +435,7 @@
                     } 
                     assert( (inStones && !inliberities && ingrid && sameColor) || (inliberities && !ingrid) || (ingrid && !sameColor) );
                 }
-                delete [] nl;
+                free(nl);
             }
 
         }
@@ -592,11 +598,10 @@
 
     std::vector<Move* > * GameState::legal_moves() {
         std::vector<Move* > * moves = new std::vector<Move* > ();
-
         for (int r =1 ; r < board->num_rows + 1; r++) {
             // std::cout << "r: " << r << std::endl;
             for (int c = 1; c < board->num_cols + 1; c++) {
-                // std::cout << "c: " << c << std::endl;
+               //  std::cout << "c: " << c << std::endl;
                 Point candidate(r, c);
                 if(board->_grid->find(candidate) != board->_grid->end() ) {
                     continue; 
@@ -614,6 +619,8 @@
                 }
             }
         }
+      // moves->push_back(Move::pass_turn())
+       // moves->push_back(Move::resign())
 
         return moves;
     }
@@ -652,7 +659,7 @@
                     return false;
             }
         }
-        delete [] nl;
+        free(nl);
         int friendly_corners = 0;
         int off_board_corners = 0;
 

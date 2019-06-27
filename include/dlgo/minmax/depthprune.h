@@ -52,11 +52,14 @@ public:
 
     Move * select_move(GameState * game_state){
         // """Choose a random valid move that preserves our own eyes."""
-        // std::cout << "find candidates" << std::endl;
+        std::cout << "find candidates" << std::endl;
         int best_score = MIN_SCORE;
         std::vector< Move * > * legal_moves = game_state->legal_moves();
+        assert(legal_moves->size() > 0);
         std::vector<Move* > * best_moves = new std::vector<Move* > ();
+        std::cout << "legal_moves size : " << legal_moves->size() << std::endl;
         for (unsigned int i = 0 ; i < legal_moves->size(); i++) {
+            std::cout << "legal move no. " << i << std::endl;
             Move * possible_move = (*legal_moves)[i];
             GameState* next_state = game_state->apply_move(possible_move);
             int opponent_best_outcome = best_result(next_state, max_depth, eval_fn);
@@ -71,22 +74,29 @@ public:
         }
 
         // std::cout << "choice one candidate." << std::endl;
+   //     std::cout << "best move size : " << best_moves->size() << std::endl;
         assert(best_moves->size() > 0);
         int r = rand() % best_moves->size();
         Move * choice = (*best_moves)[r];
         best_moves->erase(best_moves->begin()+r);
-
-        for(int i = 0; i < (int) best_moves->size(); i++ ){
-            delete (*best_moves)[i];
+   //     std::cout << "choice move:" << std::endl;
+   //     choice->print();
+        
+        for (unsigned int i = 0 ; i < legal_moves->size(); i++) {
+            auto tmp = (*legal_moves)[i];
+            if(tmp != choice)
+                delete tmp;
+            else
+                legal_moves->erase(legal_moves->begin()+i);
         }
+        legal_moves->clear();
+        delete legal_moves;
+
         best_moves->clear();
         delete best_moves;
 
-        for (unsigned int i = 0 ; i < legal_moves->size(); i++) {
-            delete (*legal_moves)[i];
-       }
-        legal_moves->clear();
-        delete legal_moves;
+        std::cout << "choice move:" << std::endl;
+        choice->print();
 
         return choice;
     }
